@@ -65,6 +65,10 @@ footer {
    color: #cbcf5c !important;
 }
 
+.social.spotify a {
+   color: #1ed760 !important;
+}
+
 .black {
    color: #000 !important;
 }
