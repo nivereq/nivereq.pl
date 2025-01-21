@@ -1,0 +1,95 @@
+/*
+Copyright by NivereQ 2025
+
+*/
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: #292929;
+   font-family: "Zain", serif;
+}
+
+.center-box {
+   background-color: #f1f1f1;
+   padding: 32.5px;
+   border: 1px solid #a8a8a8;
+   box-shadow: 0 4px 8px rgba(185, 185, 185, 0.212);
+   border-radius: 8px;
+   text-align: left;
+}
+
+.center-box p {
+   margin: 0 0 10px;
+   line-height: 1.2;
+   font-family: "Zain", serif;
+   font-weight: 300;
+   font-style: normal;
+}
+
+footer {
+   font-size: 8.5px;
+   padding: 1.5px;
+   margin-top: 2px;
+   font-family: "Oxanium", serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
+}
+
+.social-box {
+   padding: 1.5px;
+   margin-top: 2px;
+}
+
+.social a {
+   text-decoration: none;
+   color: #000;
+}
+
+.social.discord a {
+   color: #5865f2 !important;
+}
+
+.social.youtube a {
+   color: #ff0000 !important;
+}
+
+.black {
+   color: #000 !important;
+}
+
+.white {
+   color: #fff !important;
+}
+
+.decoration-none {
+   text-decoration: none !important;
+}
+
+.header a h1 img {
+   width: 37.5px;
+   height: 37.5px;
+   border: 1px solid #000;
+   border-radius: 50%;
+}
+
+.header a h1 {
+   margin-bottom: 6.5px;
+   font-family: "Pacifico", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 32.5px;
+}
+
+.header a {
+   text-decoration: none;
+}
