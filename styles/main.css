@@ -80,8 +80,8 @@ footer {
 }
 
 .header a h1 img {
-   width: 37.5px;
-   height: 37.5px;
+   width: 40px;
+   height: 40px;
    border: 1px solid #000;
    border-radius: 50%;
 }
@@ -91,7 +91,7 @@ footer {
    font-family: "Pacifico", serif;
    font-weight: 400;
    font-style: normal;
-   font-size: 32.5px;
+   font-size: 37.5px;
 }
 
 .header a {
