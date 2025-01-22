@@ -1,15 +1,7 @@
 let darkMode;
 
 function switchTheme(){
-  if(getCookie("dark") != ""){
-    darkMode = getCookie("dark");
-  }
-  else{
-    darkMode = setCookie("dark","false",30).value;
-  }
-  if(darkMode == "true") {
-    document.querySelectorAll("*").forEach(el => el.classList.add("theme-dark"));
-  }
+    themeInit();
     document.querySelectorAll("*").forEach(el => {
       if(el.classList.contains("theme-dark")) {
         el.classList.remove("theme-dark");
@@ -20,4 +12,16 @@ function switchTheme(){
         setCookie("dark", "true", 30);
       }
     })
+}
+
+function themeInit(){
+  if(getCookie("dark") != ""){
+    darkMode = getCookie("dark");
+  }
+  else{
+    darkMode = setCookie("dark","false",30).value;
+  }
+  if(darkMode == "true") {
+    document.querySelectorAll("*").forEach(el => el.classList.add("theme-dark"));
+  }
 }
