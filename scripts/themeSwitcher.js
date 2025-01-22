@@ -1,6 +1,6 @@
-let darkMode = "falss";
+let darkMode = "false";
 
-function switchTheme(){
+function themeSwitch(){
     themeInit();
     document.querySelectorAll("*").forEach(el => {
       if(el.classList.contains("theme-dark")) {
