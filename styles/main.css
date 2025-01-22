@@ -103,7 +103,7 @@ footer {
 .menu{
    text-align: right;
    position: absolute;
-   top: 0;
+   top: 13px;
    margin: 3px;
    width: 87.5%;
 }
