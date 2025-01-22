@@ -34,3 +34,7 @@ footer.dark-theme {
 .header.dark-theme a h1 {
    color: #fafafa;
 }
+
+.switcher.dark-theme{
+   color: #fafafa;
+}
