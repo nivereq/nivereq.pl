@@ -20,7 +20,8 @@ function themeInit(){
     darkMode = getCookie("dark");
   }
   else{
-    darkMode = setCookie("dark","false",30).value;
+    setCookie("dark","false",30);
+    darkMode = "false";
   }
   if(darkMode == "true") {
     document.querySelectorAll("*").forEach(el => el.classList.add("dark-theme"));
@@ -28,5 +29,5 @@ function themeInit(){
   }else{
     switcher.innerHTML = '<i class="bi bi-brightness-low"></i>';
   }
-  themeInit();
+  return darkMode;
 }
