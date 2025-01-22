@@ -4,9 +4,9 @@ Copyright by NivereQ 2025.
 */
 
 
-const {isDark, expired, icons} = {
+const {isDark, expires, icons} = {
   isDark: "false",
-  expired: 180, //Days
+  expires: 180, //Days
   icons: {
     default: '<i class="bi bi-brightness-high-fill"></i>',
     dark: '<i class="bi bi-brightness-low"></i>'
