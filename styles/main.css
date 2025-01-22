@@ -27,12 +27,12 @@ body {
    padding: 30.5px;
    border: 1px solid #e7e7e7;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.212);
-   border-radius: 8px;
+   border-radius: 10px;
    text-align: left;
 }
 
 .center-box p {
-   margin: 0 0 10px;
+   margin: 0 0 12px;
    line-height: 1.2;
    font-family: "Zain", serif;
    font-weight: 300;
