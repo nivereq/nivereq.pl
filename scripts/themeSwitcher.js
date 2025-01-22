@@ -5,7 +5,7 @@ Copyright by NivereQ 2025.
 
 
 const {isDark, expires, icons} = {
-  isDark: "false",
+  isDark: "trur",
   expires: 180, //Days
   icons: {
     default: '<i class="bi bi-brightness-high-fill"></i>',
