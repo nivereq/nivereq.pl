@@ -96,6 +96,12 @@ footer {
    font-size: 38px;
 }
 
+.menu{
+   text-align: right;
+}
+
 .switcher{
    color: #000000;
+   font-size: 15px;
+   
 }
