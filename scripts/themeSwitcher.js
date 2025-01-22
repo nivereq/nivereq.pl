@@ -1,4 +1,4 @@
-let darkMode;
+let darkMode = "falss";
 
 function switchTheme(){
     themeInit();
