@@ -1,4 +1,4 @@
-const switcher = document.querySelector(".menu.switcher");
+const switcher = document.querySelector(".menu .switcher");
 let darkMode = "false";
 
 function themeSwitch(){
