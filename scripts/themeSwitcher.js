@@ -1,5 +1,6 @@
+let darkMode;
+
 function switchTheme(){
-  let darkMode;
   if(getCookie("dark") != ""){
     darkMode = getCookie("dark");
   }
