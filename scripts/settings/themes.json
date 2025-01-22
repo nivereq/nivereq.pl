@@ -1,0 +1,17 @@
+[
+  {
+    "name": "light",
+    "background": "#",
+    "color": "#",
+    "box-bg": "#",
+    "shadows": "#"
+  },
+
+  {
+    "name": "dark",
+    "background": "#",
+    "color": "#",
+    "box-bg": "#",
+    "shadows": "#"
+  }
+]
