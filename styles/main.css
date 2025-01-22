@@ -14,15 +14,15 @@ body {
    justify-content: center;
    align-items: center;
    min-height: 100vh;
-   background-color: #292929;
+   background-color: #fefefe;
    font-family: "Zain", serif;
 }
 
 .center-box {
    background-color: #f1f1f1;
    padding: 30.5px;
-   border: 1px solid #a8a8a8;
-   box-shadow: 0 4px 8px rgba(185, 185, 185, 0.212);
+   border: 1px solid #e7e7e7;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.212);
    border-radius: 8px;
    text-align: left;
 }
@@ -70,11 +70,7 @@ footer {
 }
 
 .black {
-   color: #000 !important;
-}
-
-.white {
-   color: #fff !important;
+   color: #000;
 }
 
 .decoration-none {
@@ -87,7 +83,7 @@ footer {
    border: 0px solid transparent;
    border-radius: 50%;
    padding: 1.75px;
-   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.17);
+   box-shadow: 0 3px 6px rgba(225, 225, 225, 0.17);
 }
 
 .header a h1 {
