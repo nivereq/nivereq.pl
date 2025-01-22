@@ -1,3 +1,4 @@
+const switcher = document.querySelector(".menu.switcher");
 let darkMode = "false";
 
 function themeSwitch(){
@@ -23,5 +24,8 @@ function themeInit(){
   }
   if(darkMode == "true") {
     document.querySelectorAll("*").forEach(el => el.classList.add("theme-dark"));
+    switcher.innerHTML = "<i class="bi bi-brightness-high-fill"></i>";
+  }else{
+    switcher.innerHTML = "<i class="bi bi-brightness-low"></i>";
   }
 }
