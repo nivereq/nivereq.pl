@@ -13,6 +13,7 @@ function themeSwitch(){
         setCookie("dark", "true", 30);
       }
     })
+    themeInit();
 }
 
 function themeInit(){
