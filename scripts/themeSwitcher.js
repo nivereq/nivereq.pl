@@ -24,8 +24,8 @@ function themeInit(){
   }
   if(darkMode == "true") {
     document.querySelectorAll("*").forEach(el => el.classList.add("theme-dark"));
-    switcher.innerHTML = "<i class="bi bi-brightness-high-fill"></i>";
+    switcher.innerHTML = '<i class="bi bi-brightness-high-fill"></i>';
   }else{
-    switcher.innerHTML = "<i class="bi bi-brightness-low"></i>";
+    switcher.innerHTML = '<i class="bi bi-brightness-low"></i>';
   }
 }
