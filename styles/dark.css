@@ -26,6 +26,10 @@ footer.dark-theme {
    color: #fafafa;
 }
 
+.black.dark-theme{
+   color: #f1f1f1;
+}
+
 .header.dark-theme a h1 img {
    background: #fff;
    box-shadow: 0 3px 6px rgba(255, 255, 255, 0.17);
