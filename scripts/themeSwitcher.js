@@ -19,6 +19,5 @@ function switchTheme(){
         setCookie("dark", "true", 30);
         darkMode = true;
       }
-    return darkMode;
     })
 }
