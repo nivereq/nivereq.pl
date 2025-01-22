@@ -11,5 +11,6 @@ const getCurrentMs = () => {
 let time = getCurrentMs();
 log(`⌛️ | nivereq.pl is loading...`);
 document.body.onload = () => {
+   themeInit();
    log(`✅ | nivereq.pl loaded successfully in ${getCurrentMs() - time}ms.`);
 }
