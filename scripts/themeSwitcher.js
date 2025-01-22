@@ -18,9 +18,11 @@ function themeSwitch(){
 function themeInit(){
   if(getCookie("dark") != ""){
     darkMode = getCookie("dark");
+    console.log(darkMode);
   }
   else{
     darkMode = setCookie("dark","false",30).value;
+  console.log(darkMode);
   }
   if(darkMode == "true") {
     document.querySelectorAll("*").forEach(el => el.classList.add("dark-theme"));
