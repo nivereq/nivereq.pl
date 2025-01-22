@@ -1,16 +1,31 @@
+/*
+Copyright by NivereQ 2025.
+
+*/
+
+
+const {isDark, expired, icons} = {
+  isDark: "false",
+  expired: 180, //Days
+  icons: {
+    default: '<i class="bi bi-brightness-high-fill"></i>',
+    dark: '<i class="bi bi-brightness-low"></i>'
+  }
+};
+
 const switcher = document.querySelector(".menu .switcher");
-let darkMode = "false";
+let darkMode = isDark;
 
 function themeSwitch(){
     themeInit();
     document.querySelectorAll("*").forEach(el => {
       if(el.classList.contains("dark-theme")) {
         el.classList.remove("dark-theme");
-        setCookie("dark", "false", 30);
+        setCookie("dark", "false", expires);
       }
       else{
         el.classList.add("dark-theme");
-        setCookie("dark", "true", 30);
+        setCookie("dark", "true", expires);
       }
     })
     themeInit();
@@ -21,14 +36,14 @@ function themeInit(){
     darkMode = getCookie("dark");
   }
   else{
-    setCookie("dark","false",30);
-    darkMode = "false";
+    setCookie("dark",isDark,expires);
+    darkMode = isDark;
   }
   if(darkMode == "true") {
     document.querySelectorAll("*").forEach(el => el.classList.add("dark-theme"));
-    switcher.innerHTML = '<i class="bi bi-brightness-high-fill"></i>';
+    switcher.innerHTML = icons.default;
   }else{
-    switcher.innerHTML = '<i class="bi bi-brightness-low"></i>';
+    switcher.innerHTML = icons.dark;
   }
   return darkMode;
 }
