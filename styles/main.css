@@ -19,7 +19,7 @@ body {
 }
 
 .center-box {
-   background-color: #f1f1f1;
+   background: #f1f1f1;
    padding: 30.5px;
    border: 1px solid #e7e7e7;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.212);
@@ -97,10 +97,18 @@ footer {
 }
 
 .menu{
-   text-align: center;
+   text-align: right;
+   position: absolute;
+   top: 0;
+   margin: 10px;
 }
 
 .switcher{
    color: #000000;
-   font-size: 20.5px;
+   font-size: 22.5px;
+   border: 0px solid transparent;
+   border-radius: 50%;
+   padding: 2.5px;
+   background: #000;
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.17);
 }
