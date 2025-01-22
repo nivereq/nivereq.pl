@@ -1,5 +1,5 @@
 const switchTheme = () => {
-  let darkMode = getCookie("dark")=="true" ? true : setCookie("dark","false", 30);0).value;
+  let darkMode = getCookie("dark")=="true" ? true : setCookie("dark","false", 30).value;
   if(darkMode) {
     document.querySelectorAll("*").forEach(el => el.classList.add("theme-dark"));
   }
