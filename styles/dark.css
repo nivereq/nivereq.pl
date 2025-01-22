@@ -1,0 +1,36 @@
+/*
+Copyright by NivereQ 2025
+
+*/
+
+body.dark-theme {
+   background-color: #000000;
+}
+
+.center-box.dark-theme {
+   background-color: #444444;
+   border: 1px solid #333333;
+   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.212);
+}
+
+.center-box.dark-theme p {
+   color: #fafafa;
+}
+
+footer.dark-theme {
+   color #fafafa;
+}
+
+
+.social.dark-theme a {
+   color: #fafafa;
+}
+
+.header.dark-theme a h1 img {
+   background: #fff;
+   box-shadow: 0 3px 6px rgba(255, 255, 255, 0.17);
+}
+
+.header.dark-theme a h1 {
+   color: #fafafa;
+}
