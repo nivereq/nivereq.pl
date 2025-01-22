@@ -2,7 +2,10 @@
 Copyright by NivereQ 2025
 
 */
-
+::-webkit-scrollbar {
+   width: 0;
+   background: none;
+}
 * {
    margin: 0;
    padding: 0;
@@ -10,6 +13,7 @@ Copyright by NivereQ 2025
 }
 
 body {
+   overflow: hidden;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -100,12 +104,12 @@ footer {
    text-align: right;
    position: absolute;
    top: 0;
-   margin: 10px;
-   width: 95%;
+   margin: 3px;
+   width: 87.5%;
 }
 
 .switcher{
    color: #000000;
-   font-size: 22.5px;
+   font-size: 21px;
    padding: 5px;
 }
