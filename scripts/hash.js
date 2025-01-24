@@ -1,0 +1,1 @@
+const hashIt=e=>crypto.subtle.digest("SHA-256",new TextEncoder("utf-8").encode(e)).then((e=>{let t=[],n=new DataView(e);for(let o=0;o<n.byteLength;o+=4)t.push(("00000000"+n.getUint32(o).toString(16)).slice(-8));return t.join("")}));
