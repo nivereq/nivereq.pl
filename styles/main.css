@@ -113,3 +113,12 @@ footer {
    font-size: 21px;
    padding: 5px;
 }
+
+#popup{
+   z-index: 2;
+}
+
+.blur{
+	filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
