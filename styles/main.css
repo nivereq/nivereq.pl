@@ -114,9 +114,6 @@ footer {
    padding: 5px;
 }
 
-#popup{
-   z-index: 2;
-}
 
 .blur{
 	filter: blur(10px);
