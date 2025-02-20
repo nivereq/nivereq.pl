@@ -2,14 +2,13 @@
   "name": "nivereq.pl",
   "version": "1.0.2",
   "private": true,
-  "homepage": "https://github.com/npm/example#readme",
+  "homepage": "https://nivereq.pl",
   "license": "SEE LICENSE IN THE LICENSE FILE",
   "author": "@nivereq <kontakt@nivereq.pl> https://nivereq.pl",
   "repository": {
     "type": "git",
     "url": "https://github.com/nivereq/nivereq.pl.git"
   },
-  "homepage": "https://nivereq.pl",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -17,8 +16,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^15.1.7",
     "bootstrap-icons": "^1.11.3",
-    "next": "15.1.7",
+    "next": "^15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0",

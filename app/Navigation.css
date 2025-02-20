@@ -21,6 +21,7 @@ nav div.brand{
     height: 57.5px;
     margin-right: 20px;
     transition: 0.275s;
+    animation: load-image 1.25s linear;
 }
 
 .brand img:hover{
@@ -34,3 +35,16 @@ nav div h1{
     line-height: 35.225px;
     font-weight: 700;
 }
+
+  
+@keyframes load-image {
+    0%{
+      opacity: 0;
+      transform: rotate(360deg);
+    }
+    100%{
+      opacity: 1;
+    }
+}
+
+  

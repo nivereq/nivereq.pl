@@ -4,9 +4,11 @@ import "./Themes.css";
 import "./Navigation.css";
 import "./App.css";
 
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 export const metadata = {
-  title: "nivereq.pl",
-  description: "a cute arctic fox:3",
+  title: 'nivereq.pl',
+  description: 'a cute arctic fox:3',
   appleWebApp: {
     title: "nivereq.pl",
   },
@@ -32,7 +34,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'nivereq.pl',
-    description: '"a cute arctic fox:3"',
+    description: 'a cute arctic fox:3',
     creator: '@nivereq',
   },
   
@@ -49,6 +51,7 @@ export default async function RootLayout({ children }) {
       >
         {children}
       </body>
+      <GoogleAnalytics gaId="G-0V1RV7Q39K" />
     </html>
   );
 }
