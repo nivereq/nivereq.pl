@@ -36,7 +36,7 @@ export default function App() {
       </div>
     
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-          &copy;2025 by nivereq | all rights secured 🔒| crafted with pride by a furry. 🐾 ~ <a href="../">polski</a>
+          &copy;2025 by nivereq | all rights secured 🔒| crafted with pride by a furry cute. 🐾 ~ <a href="../">polski</a>
         </footer>
       {updateLang()}
       </div>

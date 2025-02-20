@@ -6,17 +6,31 @@ nav {
     height: 55px;
     font-size: 17.5px;
     margin: auto;
-
 }
 
-nav h1{
+nav div.brand{
+    display: flex;
+    width: 35%;
+    height: 100%;
+}
+
+.brand img{
+    border: solid transparent;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+
+nav div h1{
     font-size: 30px;
-}
-
-
-nav h1 {
     float: left;
     margin: 0;
     line-height: 35.225px;
     font-weight: 700;
+}
+
+img[src=""]{
+    display: none;
 }

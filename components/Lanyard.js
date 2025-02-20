@@ -9,10 +9,7 @@ export function Lanyard() {
 		socket: true,
 	});
 
-	return (
-        <span className="profilePicture">
-             <Image alt="" className="avatar" src={!loading ? `https://cdn.discordapp.com/avatars/${status.discord_user.id}/${status.discord_user.avatar}` : undefined} />
-        </span>
-      
-    )
+	return <img className="avatar" src={!loading ? `https://cdn.discordapp.com/avatars/${status.discord_user.id}/${status.discord_user.avatar}` : undefined} />
+            
+    
 }

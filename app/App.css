@@ -44,7 +44,7 @@ p a{
 footer{
   color: var(--lighter);
   padding:8px;
-  border-top: 1px dotted white;
+  border-top: 3.5px dotted white;
 }
 
 .container{
@@ -73,8 +73,6 @@ span.socialBtn i{
   color: var(--brand-color);
   position: relative;
 }
-
-
 
 span.socialBtn:last-child::after{
   display: none;
