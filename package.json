@@ -1,7 +1,15 @@
 {
   "name": "nivereq.pl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
+  "homepage": "https://github.com/npm/example#readme",
+  "license": "SEE LICENSE IN THE LICENSE FILE",
+  "author": "@nivereq <kontakt@nivereq.pl> https://nivereq.pl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nivereq/nivereq.pl.git"
+  },
+  "homepage": "https://nivereq.pl",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

@@ -21,7 +21,7 @@ export default function App() {
           <section>
             <h2>About Me:</h2>
             <p>👨 I'm {Age()} and from the <a href="https://www.google.com/maps/place/Tr%C3%B3jmiasto/" target="_blank">Tricity area</a> in Poland.</p>
-            <p>🦊 I'm a furry, and my fursona is an Arctic fox.</p>
+            <p>🦊 I'm a <a href="https://en.wikipedia.org/wiki/Furry_fandom" target="_blank">furry</a>, and my fursona is an Arctic fox.</p>
             {TimeOffset()}
             <p>📷 I love taking photos—animals, nature, and even still life.</p>
             <p>❣️ Huge animal lover.</p>
@@ -29,6 +29,8 @@ export default function App() {
             <p>🥧 I can bake, my specialty is sweet yeast buns.</p>
             <p>🍝 Big fan of Italian food.</p>
             <p>🎧 Obsessed with <a href="https://open.spotify.com/artist/0Y6dVaC9DZtPNH4591M42W" target="_blank">Tv Girl</a> and 2010s bangers.</p>
+            <p>🌍 I dream of traveling across Europe and visiting the USA.</p>
+            <p>🔢 My favorite numbers are 7, 18, and 760.</p>
           </section>
         
           

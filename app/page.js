@@ -24,13 +24,15 @@ export default function App() {
         <section>
           <h2>O mnie:</h2>
           <p>👨 Mam {Age()} lat i pochodzę z <a href="https://www.google.com/maps/place/Tr%C3%B3jmiasto/" target="_blank">Trójmiasta</a>.</p>
-          <p>🦊 Jestem futrzakiem, a moja fursona to arktyczny lis.</p>
+          <p>🦊 Jestem <a href="https://pl.wikipedia.org/wiki/Furry" target="_blank">futrzakiem</a>, a moja fursona to arktyczny lis.</p>
           <p>📷 Uwielbiam robić zdjęcia, wszystkiego co żywe, ale także i martwej natury.</p>
           <p>❣️ Kocham zwierzaczki.</p>
           <p>💻 Moją pasją jest programowanie.</p>
           <p>🥧 Potrafię piec - moim speciałem są drożdżówki.</p>
           <p>🍝 Jestem wielkim fanem kuchni włoskiej.</p>
           <p>🎧 Kocham piosenki <a href="https://open.spotify.com/artist/0Y6dVaC9DZtPNH4591M42W" target="_blank">Tv Girl</a> oraz przeboje 2010s.</p>
+          <p>🌍 Marzę o podróżach po Europie i odwiedzeniu USA.</p>
+          <p>🔢 Moje ulubione liczby to 7, 18 i 760.</p>
         </section>
       </main>
       

@@ -47,21 +47,10 @@ footer{
   border-top: 3.5px dotted var(--foreground);
 }
 
-.container{
-  margin-bottom: 0;
-}
-
 footer a{
   display: contents;
   color: var(--url);
 }
-
-/* .socials{
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  display: contents;
-} */
 
 span.socialBtn{
   padding: 18px;
@@ -72,11 +61,16 @@ span.socialBtn i{
   color: var(--brand-color);
   position: relative;
   display: inline-flex;
+  transition: 0.35s;
 }
-
 
 span.socialBtn i:hover{
   color: var(--brand-color-highlight);
+  transform: scale(1.25);
+}
+
+a{
+  transition: 0.3s;
 }
 
 a:hover{

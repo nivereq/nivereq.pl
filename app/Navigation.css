@@ -8,7 +8,6 @@ nav {
     margin: auto;
     margin-bottom: 20px;
 }
-
 nav div.brand{
     display: flex;
     width: 35%;
@@ -18,11 +17,15 @@ nav div.brand{
 .brand img{
     border: solid transparent;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 57.5px;
+    height: 57.5px;
     margin-right: 20px;
+    transition: 0.275s;
 }
 
+.brand img:hover{
+    transform: rotate(360deg) scale(1.125);
+}
 
 nav div h1{
     font-size: 30px;
@@ -30,8 +33,4 @@ nav div h1{
     margin: 0;
     line-height: 35.225px;
     font-weight: 700;
-}
-
-img[src=undefined]{
-    display: none;
 }
