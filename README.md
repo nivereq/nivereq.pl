@@ -22,8 +22,8 @@ This website is deployed using **GitHub Pages**. You can visit it here: [nivereq
 
 ## 📜 License
 
-Copyright (C) 2025 @nivereq
-All Rights Reserved. All rights reserved.
+`Copyright (C) 2025 @nivereq`
+`All Rights Reserved.`
 
 ## 📬 Contact
 
