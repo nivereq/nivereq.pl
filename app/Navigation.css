@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+    height: 55px;
+    font-size: 17.5px;
+    margin: auto;
+
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+
+nav h1 {
+    float: left;
+    margin: 0;
+    line-height: 35.225px;
+    font-weight: 700;
+}

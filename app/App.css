@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 0 30px;
+  font-family: "Outfit", serif;
+}
+
+header div{
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+main section {
+  padding: 15px 0;
+}
+
+main h2 {
+  margin: auto;
+  margin-bottom: 23.225px;
+  font-size: 24px;
+  color: var(--brand-color);
+  font-weight: 600;
+}
+
+p{
+  font-size: 17.5px;
+  margin-top: 22.5px;
+  
+}
+
+p a{
+  color: var(--url);
+  font-weight: 700;
+}
+
+footer{
+  color: var(--lighter);
+  padding:8px;
+  border-top: 1px dotted white;
+}
+
+.container{
+  margin-bottom: 0;
+}
+
+
+footer a{
+  display: contents;
+  color: var(--url);
+}
+
+.socials{
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  display: contents;
+}
+
+span.socialBtn{
+  padding: 18.5px;
+}
+
+span.socialBtn i{
+  font-size: 26.25px;
+  color: var(--brand-color);
+  position: relative;
+}
+
+
+
+span.socialBtn:last-child::after{
+  display: none;
+}
+
+
+span.socialBtn i:hover{
+  color: var(--brand-color-highlight);
+}
+
+a:hover{
+  color: var(--url-highlight);
+  text-decoration:underline;
+}

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+    --brand-color: #11ada6;
+    --brand-color-highlight:#18d3ca;
+    --url: #00a7bd;
+    --url-highlight: #05b9d1;
+    --lighter: #6d6d6d;
+  }
+  
+@media (prefers-color-scheme: dark) {
+:root {
+    --background: #2c2c2c;
+    --foreground: #fffefe;
+    --lighter: #d8d8d8;
+    --brand-color-highlight: #11ada6;
+    --brand-color:#18d3ca;
+    --url: #00a7bd;
+    --url-highlight: #05b9d1;
+}
+}
