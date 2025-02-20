@@ -1,9 +1,8 @@
-import "/Fonts.css";
-import "@/Themes.css";
-import "@/Navigation.css";
-import "@/App.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-
+import "./Fonts.css";
+import "./Themes.css";
+import "./Navigation.css";
+import "./App.css";
 
 export const metadata = {
   title: "nivereq.pl",
@@ -35,7 +34,6 @@ export const metadata = {
     title: 'nivereq.pl',
     description: '"a cute arctic fox:3"',
     creator: '@nivereq',
-    images: ['https://nivereq.pl/public/web-app-manifest-192x192.png'], // Must be an absolute URL
   },
   
 };

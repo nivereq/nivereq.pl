@@ -1,4 +1,6 @@
 'use client'
+
+
 import { Age } from "@/components/Date";
 import { Socials } from "@/components/Socials";
 import { updateLang } from "@/components/updateLang";
@@ -32,7 +34,7 @@ export default function App() {
     </div>
 
     <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        &copy;2025 by nivereq | Wszelkie prawa zastrzeżone 🔒 | stworzone z dumą przez futrzaka. ~ <a href="/en">english</a>
+        &copy;2025 by nivereq | Wszelkie prawa zastrzeżone 🔒 | stworzone z dumą przez futrzaka. ~ <a href="./en">english</a>
     </footer>
       {updateLang()}
     </div>
