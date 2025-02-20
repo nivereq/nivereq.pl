@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+'use client'
 
 export function Age(){
     let bdayMs = new Date("2008-05-03").getTime();
@@ -22,7 +22,7 @@ export function TimeOffset(){
     if(offset < 0){
         return <p>⏰ Your time is {offset * -1}h behind mine (<a target="_blank" href="https://time.is/Warsaw">Europe/Warsaw</a>).</p>;
     }else if(offset > 0){
-        return <p>⏰ Your time is ${Math.trunc(offset)}h ahead of mine (<a target="_blank" href="https://time.is/Warsaw">Europe/Warsaw</a>).</p>;
+        return <p>⏰ Your time is {Math.trunc(offset)}h ahead of mine (<a target="_blank" href="https://time.is/Warsaw">Europe/Warsaw</a>).</p>;
     }else{
         return <p>⏰ My timezone is <a target="_blank" href="https://time.is/Warsaw">Europe/Warsaw.</a></p>;
     }

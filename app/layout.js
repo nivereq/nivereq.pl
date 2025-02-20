@@ -1,7 +1,7 @@
-import "./Fonts.css";
-import "./Themes.css";
-import "./Navigation.css";
-import "./App.css";
+import "/Fonts.css";
+import "@/Themes.css";
+import "@/Navigation.css";
+import "@/App.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 

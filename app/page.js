@@ -5,7 +5,6 @@ import { updateLang } from "@/components/updateLang";
 
 
 
-
 export default function App() {
   return (
       <div>
