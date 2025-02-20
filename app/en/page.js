@@ -1,6 +1,7 @@
 'use client'
 
 import { Age, TimeOffset } from "@/components/Date";
+import { Lanyard } from "@/components/Lanyard";
 import { Socials } from "@/components/Socials";
 import { updateLang } from "@/components/updateLang"
 
@@ -9,9 +10,11 @@ export default function App() {
 
     return (
         <div>
-          <nav>
-            <h1>nivereq.pl</h1>
-          </nav>
+            <nav>
+              <div className="brand items-center justify-items-center">
+                {Lanyard()}<h1>nivereq.pl</h1>
+              </div>   
+            </nav>
       <div className="items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
             {Socials()}
         <main className="items-center">
@@ -36,7 +39,7 @@ export default function App() {
       </div>
     
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-          &copy;2025 by nivereq | all rights secured 🔒| crafted with pride by a furry cute. 🐾 ~ <a href="../">polski</a>
+          &copy;2025 by nivereq | all rights secured 🔒| crafted with pride by a cute furry. 🐾 ~ <a href="../">polski</a>
         </footer>
       {updateLang()}
       </div>

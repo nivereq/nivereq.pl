@@ -44,38 +44,34 @@ p a{
 footer{
   color: var(--lighter);
   padding:8px;
-  border-top: 3.5px dotted white;
+  border-top: 3.5px dotted var(--foreground);
 }
 
 .container{
   margin-bottom: 0;
 }
 
-
 footer a{
   display: contents;
   color: var(--url);
 }
 
-.socials{
+/* .socials{
   align-items: center;
   justify-content: center;
   position: absolute;
   display: contents;
-}
+} */
 
 span.socialBtn{
-  padding: 18.5px;
+  padding: 18px;
 }
 
 span.socialBtn i{
   font-size: 26.25px;
   color: var(--brand-color);
   position: relative;
-}
-
-span.socialBtn:last-child::after{
-  display: none;
+  display: inline-flex;
 }
 
 

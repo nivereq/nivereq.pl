@@ -1,3 +1,5 @@
+'use client'
+
 const DISCORD_ID = '1305678814046588949';
 
 import Image from "next/image";
@@ -9,7 +11,7 @@ export function Lanyard() {
 		socket: true,
 	});
 
-	return <img className="avatar" src={!loading ? `https://cdn.discordapp.com/avatars/${status.discord_user.id}/${status.discord_user.avatar}` : undefined} />
+	return <img className="avatar" src={!loading ? `https://cdn.discordapp.com/avatars/${status.discord_user.id}/${status.discord_user.avatar}` : `https://cdn.discordapp.com/embed/avatars/${Math.floor(Math.random() * 5)}.png`} />
             
     
 }

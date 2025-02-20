@@ -37,7 +37,7 @@ export default function App() {
     </div>
 
     <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        &copy;2025 by nivereq | Wszelkie prawa zastrzeżone 🔒 | stworzone przez słodkiego futrzaka. 🐾 ~ <a href="./en">english</a>
+        &copy;2025 by nivereq | Wszelkie prawa zastrzeżone 🔒 | stworzone przez futrzaka. 🐾 ~ <a href="./en">english</a>
     </footer>
       {updateLang()}
     </div>

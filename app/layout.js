@@ -40,11 +40,10 @@ export const metadata = {
 
 
 
-
 export default async function RootLayout({ children }) {
 
   return (
-    <html>
+    <html lang="pl">
       <body
         className={`antialiased`}
       >

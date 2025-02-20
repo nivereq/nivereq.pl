@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 nav {
-    height: 55px;
-    font-size: 17.5px;
+    height: 57px;
+    font-size: 18px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 nav div.brand{
@@ -31,6 +32,6 @@ nav div h1{
     font-weight: 700;
 }
 
-img[src=""]{
+img[src=undefined]{
     display: none;
 }
