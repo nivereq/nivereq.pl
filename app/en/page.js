@@ -12,7 +12,7 @@ export default function App() {
         <div>
             <nav>
               <div className="brand items-center justify-items-center">
-                {Lanyard()}<h1>nivereq.pl</h1>
+                {Lanyard()}<h1 className="anim-text-spacing">nivereq.pl</h1>
               </div>   
             </nav>
       <div className="items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
@@ -41,7 +41,7 @@ export default function App() {
       </div>
     
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-          &copy;2025 by nivereq | all rights secured 🔒| crafted with pride by a cute furry. 🐾 ~ <a href="../">polski</a>
+          &copy;2025 by nivereq | all rights reserved 🔒| crafted with pride by a cute furry. 🐾 ~ <a href="../">polski</a>
         </footer>
       {updateLang()}
       </div>

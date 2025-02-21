@@ -1,0 +1,29 @@
+/* Letter spacing animation */
+@keyframes text-spacing {
+    0% { 
+      letter-spacing: 2.8px;
+    }
+}
+  
+.anim-text-spacing{
+    animation: text-spacing 0.3s linear;
+}
+
+/* From transparent to opaque */
+@keyframes appearing{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+
+.anim-appearing{
+    animation: appearing 0.55s ease-in;
+}
+
+  
+  
+  
+  

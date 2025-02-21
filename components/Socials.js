@@ -1,10 +1,7 @@
 export function Socials(){
 
-
-
-
     return (
-        <div>
+        <div className="anim-appearing social-container">
             <span className="socialBtn">
                 <a target="_blank" href="https://discord.com/invite/rVQW6sHfAv"><i className="bi bi-discord"></i></a>
             </span>

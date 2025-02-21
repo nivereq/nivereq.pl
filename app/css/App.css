@@ -31,8 +31,8 @@ main h2 {
 }
 
 p{
-  font-size: 17.5px;
-  margin-top: 22.5px;
+  font-size: 18px;
+  margin-top: 23px;
   
 }
 
@@ -43,17 +43,26 @@ p a{
 
 footer{
   color: var(--lighter);
-  padding:8px;
+  padding: 10px;
   border-top: 3.5px dotted var(--foreground);
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
 }
+
 
 footer a{
   display: contents;
   color: var(--url);
 }
 
+.social-container{
+  position: relative;
+}
+
 span.socialBtn{
-  padding: 18px;
+  padding: 15.5px;
+  margin: 1.5px;
 }
 
 span.socialBtn i{
@@ -61,19 +70,23 @@ span.socialBtn i{
   color: var(--brand-color);
   position: relative;
   display: inline-flex;
-  transition: 0.35s;
+  text-decoration: slategrey;
 }
 
 span.socialBtn i:hover{
   color: var(--brand-color-highlight);
-  transform: scale(1.25);
+  transform: scale(1.35);
 }
 
-a{
-  transition: 0.3s;
+a, h1,span.socialBtn i{
+  transition: 0.325s;
 }
 
 a:hover{
   color: var(--url-highlight);
   text-decoration:underline;
+}
+
+h1:hover{
+  transform: scale(1.125);
 }
