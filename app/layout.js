@@ -48,8 +48,8 @@ export const metadata = {
     images: [
       {
         url: 'https://nivereq.pl/opengraph-image.jpg',
-        width: 800,
-        height: 600,
+        width: 128,
+        height: 128,
       }
     ],
     authors: ['nivereq'],
