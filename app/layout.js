@@ -33,13 +33,6 @@ export const metadata = {
       'pl-PL': '/',
     }
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'nivereq.pl',
-    description: 'a cute arctic fox:3',
-    creator: '@nivereq',
-  },
-
   openGraph: {
     title: 'nivereq.pl',
     description: '🦊 *yelping at you*',
