@@ -52,7 +52,6 @@ export const metadata = {
         height: 128,
       }
     ],
-    authors: ['nivereq'],
   }
   
 };
