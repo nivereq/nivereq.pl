@@ -10,8 +10,6 @@ export function Age(){
 
 
 export function TimeOffset(){
-      
-
     let utcDate = new Date();
     utcDate.setHours(0, 0, 0, 0);
     let strDateWWA = utcDate.toLocaleString("en-US", {
@@ -22,7 +20,7 @@ export function TimeOffset(){
     if(offset < 0){
         return <p>⏰ Your time is {offset * -1}h behind mine (<a target="_blank" href="https://time.is/Warsaw">Europe/Warsaw</a>).</p>;
     }else if(offset > 0){
-        return <p>⏰ Your time is {Math.trunc(offset)}h ahead of mine (<a target="_blank" href="https://time.is/Warsaw">Europe/Warsaw</a>).</p>;
+        return <p>⏰ Your time is {offset}h ahead of mine (<a target="_blank" href="https://time.is/Warsaw">Europe/Warsaw</a>).</p>;
     }else{
         return <p>⏰ My timezone is <a target="_blank" href="https://time.is/Warsaw">Europe/Warsaw.</a></p>;
     }

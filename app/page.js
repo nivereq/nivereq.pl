@@ -32,6 +32,7 @@ export default function App() {
           <p>🎧 Kocham piosenki <a href="https://open.spotify.com/artist/0Y6dVaC9DZtPNH4591M42W" target="_blank">Tv Girl</a> oraz przeboje 2010s.</p>
           <p>🌍 Marzę o podróżach po Europie i odwiedzeniu USA.</p>
           <p>🔢 Moje ulubione liczby to 7, 18 i 760.</p>
+          <p>🎨 Początkujący grafik, tworzę miniaturki do Minecrafta.</p>
         </section>
       </main>
       

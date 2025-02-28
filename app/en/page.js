@@ -31,6 +31,7 @@ export default function App() {
             <p>🎧 Obsessed with <a href="https://open.spotify.com/artist/0Y6dVaC9DZtPNH4591M42W" target="_blank">Tv Girl</a> and 2010s bangers.</p>
             <p>🌍 I dream of traveling across Europe and visiting the USA.</p>
             <p>🔢 My favorite numbers are 7, 18, and 760.</p>
+            <p>🎨 Beginner graphic designer, making Minecraft thumbnails.</p>
           </section>
         
           
