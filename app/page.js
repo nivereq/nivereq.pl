@@ -16,6 +16,7 @@ export default function App() {
           </div>
           
         </nav>
+        
     <div className="container items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
     
     {Socials()}

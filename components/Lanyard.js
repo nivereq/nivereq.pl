@@ -12,6 +12,4 @@ export function Lanyard() {
 	});
 
 	return <img className="avatar" src={!loading ? `https://cdn.discordapp.com/avatars/${status.discord_user.id}/${status.discord_user.avatar}` : `https://cdn.discordapp.com/embed/avatars/${Math.floor(Math.random() * 5)}.png`} />
-            
-    
 }
