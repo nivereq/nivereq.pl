@@ -1,7 +1,7 @@
 'use client'
 
 import { Age, TimeOffset } from "@/components/Date";
-import { Lanyard } from "@/components/Lanyard";
+import { ProfilePhoto, SpotifyStatus } from "@/components/Lanyard";
 import { Socials } from "@/components/Socials";
 import { updateLang } from "@/components/updateLang"
 
@@ -12,11 +12,12 @@ export default function App() {
         <div>
             <nav>
               <div className="brand items-center justify-items-center">
-                {Lanyard()}<h1 className="anim-text-spacing">nivereq.pl</h1>
+                {ProfilePhoto()}<h1 className="anim-text-spacing">nivereq.pl</h1>
               </div>   
             </nav>
       <div className="items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
             {Socials()}
+            {SpotifyStatus()}
         <main className="items-center">
           <section>
             <h2>About Me:</h2>

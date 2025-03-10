@@ -61,15 +61,15 @@ footer a{
 }
 
 span.socialBtn{
-  padding: 15.5px;
+  padding: 10px;
   margin: 1.5px;
+  display: inline;
 }
 
 span.socialBtn i{
   font-size: 26.25px;
   color: var(--brand-color);
   position: relative;
-  display: inline-flex;
   text-decoration: slategrey;
 }
 
@@ -89,4 +89,19 @@ a:hover{
 
 h1:hover{
   transform: scale(1.125);
+}
+
+
+.spotifyStatus{
+  font-size:15px;
+  padding: 3.5px;
+}
+
+.spotifyStatus span i{
+  color: #1ed760;
+  margin: 3px;
+}
+
+.spotifyStatus a:hover{
+  color: #1ed760;
 }

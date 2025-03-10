@@ -17,6 +17,9 @@ export function Socials(){
             <span className="socialBtn">
                 <a target="_blank" href="https://github.com/nivereq"><i className="bi bi-github"></i></a>
             </span>
+            <span className="socialBtn">
+                <a target="_blank" href="https://instagram.com/urnivereq"><i className="bi bi-instagram"></i></a>
+            </span>
         </div>
     )
 
