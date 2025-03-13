@@ -1,25 +1,22 @@
 'use client'
 
 import { Age } from "@/components/Date";
-import { ProfilePhoto, SpotifyStatus } from "@/components/Lanyard";
+import { CustomStatus, SpotifyStatus } from "@/components/Lanyard";
 import { Socials } from "@/components/Socials";
 import { updateLang } from "@/components/updateLang";
+import { Navigation } from "@/components/Navigation";
 
 
 
 export default function App() {
   return (
       <div>
-        <nav>
-          <div className="brand items-center justify-items-center">
-          {ProfilePhoto()}<h1 className="anim-text-spacing">nivereq.pl</h1>
-          </div>
-          
-        </nav>
+        {Navigation([])}
         
     <div className="container items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
     {Socials()}
     {SpotifyStatus()}
+    {CustomStatus()}
       <main className="items-center">
         <section>
           <h2>O mnie:</h2>
