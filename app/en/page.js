@@ -4,6 +4,7 @@ import { Age, TimeOffset } from "@/components/Date";
 import { CustomStatus, SpotifyStatus } from "@/components/Lanyard";
 import { Socials } from "@/components/Socials";
 import { updateLang } from "@/components/updateLang"
+import dynamic from 'next/dynamic'
 import { Navigation } from "@/components/Navigation";
 
 export default function App() {

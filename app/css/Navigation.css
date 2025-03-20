@@ -5,12 +5,12 @@
 nav {
     height: 57px;
     font-size: 18px;
-    margin: auto;
-    margin-bottom: 28px;
+    margin: 0 5px;
+    margin-bottom: 18px;
 }
 nav div.brand{
     display: flex;
-    width: 35%;
+    width: 30%;
     height: 100%;
 }
 
@@ -35,7 +35,7 @@ nav div h1{
     line-height: 35.225px;
     font-weight: 700;
 }
-  
+
 @keyframes load-image {
     0%{
       opacity: 0;
