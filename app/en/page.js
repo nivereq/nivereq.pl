@@ -20,6 +20,7 @@ export default function App() {
           <section>
             <h2>About Me:</h2>
             <p>👨 I'm {Age()} and from the <a href="https://www.google.com/maps/place/Tr%C3%B3jmiasto/" target="_blank">Tricity area</a> in Poland.</p>
+            <p className="pFlag"><img className="biFlag" src="/bisexual.png" /> I'm <a href="https://en.wikipedia.org/wiki/Bisexuality" target="_blank">Bisexual</a>.</p>
             <p>🦊 I'm a <a href="https://en.wikipedia.org/wiki/Furry_fandom" target="_blank">furry</a>, and my fursona is an Arctic fox.</p>
             {TimeOffset()}
             <p>📷 I love taking photos—animals, nature, and even still life.</p>
