@@ -8,13 +8,14 @@ nav {
     margin: 0 5px;
     margin-bottom: 15px;
 }
-nav div.brand{
+
+nav div.brand {
     display: flex;
     width: 30%;
     height: 100%;
 }
 
-.brand img{
+.brand img {
     border: solid transparent;
     border-radius: 50%;
     width: 55.5px;
@@ -24,11 +25,11 @@ nav div.brand{
     animation: load-image 1.25s linear;
 }
 
-.brand img:hover{
+.brand img:hover {
     transform: rotate(360deg) scale(1.125);
 }
 
-nav div h1{
+nav div h1 {
     font-size: 30px;
     float: left;
     margin: 0;
@@ -37,13 +38,12 @@ nav div h1{
 }
 
 @keyframes load-image {
-    0%{
-      opacity: 0;
-      transform: rotate(360deg);
+    0% {
+        opacity: 0;
+        transform: rotate(360deg);
     }
-    100%{
-      opacity: 1;
+
+    100% {
+        opacity: 1;
     }
 }
-
-  

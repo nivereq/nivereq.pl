@@ -9,13 +9,13 @@ import { Navigation } from "@/components/Navigation";
 
 export default function App() {
 
-    return (
-        <div>
-            {Navigation([])}
+  return (
+    <div>
+      {Navigation([])}
       <div className="items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
-            {Socials()}
-            {SpotifyStatus()}
-            {CustomStatus()}
+        {Socials()}
+        {SpotifyStatus()}
+        {CustomStatus()}
         <main className="items-center">
           <section>
             <h2>About Me:</h2>
@@ -33,19 +33,19 @@ export default function App() {
             <p>🔢 My favorite numbers are 7, 18, and 760.</p>
             <p>🎨 Beginner graphic designer, making Minecraft thumbnails.</p>
           </section>
-        
-          
-    
-    
+
+
+
+
         </main>
-        
+
       </div>
-    
+
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-          &copy;2025 by nivereq | all rights reserved 🔒| crafted with pride by a cute furry. 🐾 ~ <a href="../">polski</a>
-        </footer>
+        &copy;2025 by nivereq | all rights reserved 🔒| crafted with pride by a cute furry. 🐾 ~ <a href="../">polski</a>
+      </footer>
       {updateLang()}
-      </div>
-      
-    );
+    </div>
+
+  );
 }

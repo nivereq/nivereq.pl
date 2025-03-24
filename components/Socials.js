@@ -1,4 +1,4 @@
-export function Socials(){
+export function Socials() {
 
     return (
         <div className="anim-appearing social-container">

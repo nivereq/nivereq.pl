@@ -1,29 +1,25 @@
 /* Letter spacing animation */
 @keyframes text-spacing {
-    0% { 
-      letter-spacing: 14.5px;
-    }
+  0% {
+    letter-spacing: 14.5px;
+  }
 }
-  
-.anim-text-spacing{
-    animation: text-spacing 0.25s linear;
+
+.anim-text-spacing {
+  animation: text-spacing 0.25s linear;
 }
 
 /* From transparent to opaque */
-@keyframes appearing{
-    0%{
-      opacity: 0;
-    }
-    100%{
-      opacity: 1;
-    }
+@keyframes appearing {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
-.anim-appearing{
-    animation: appearing 0.6s ease-in;
+.anim-appearing {
+  animation: appearing 0.6s ease-in;
 }
-
-  
-  
-  
-  

@@ -12,7 +12,7 @@ body {
   font-family: "Outfit", serif;
 }
 
-header div{
+header div {
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -30,18 +30,18 @@ main h2 {
   font-weight: 600;
 }
 
-p{
+p {
   font-size: 18px;
   margin-top: 23px;
-  
+
 }
 
-p a{
+p a {
   color: var(--url);
   font-weight: 700;
 }
 
-footer{
+footer {
   color: var(--lighter);
   padding: 10px;
   border-top: 3.5px dotted var(--foreground);
@@ -51,92 +51,95 @@ footer{
 }
 
 
-footer a{
+footer a {
   display: contents;
   color: var(--url);
 }
 
-.social-container{
+.social-container {
   position: relative;
 }
 
-span.socialBtn{
+span.socialBtn {
   padding: 10px;
   margin: 1.5px;
   display: inline;
 }
 
-span.socialBtn i{
+span.socialBtn i {
   font-size: 26.25px;
   color: var(--brand-color);
   position: relative;
   text-decoration: slategrey;
 }
 
-span.socialBtn i:hover{
+span.socialBtn i:hover {
   color: var(--brand-color-highlight);
   transform: scale(1.35);
 }
 
-a, h1,span.socialBtn i{
+a,
+h1,
+span.socialBtn i {
   transition: 0.325s;
 }
 
-a:hover{
+a:hover {
   color: var(--url-highlight);
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
-h1:hover{
+h1:hover {
   transform: scale(1.125);
 }
 
 
-.spotifyStatus, .customStatus{
-  font-size:15px;
+.spotifyStatus,
+.customStatus {
+  font-size: 15px;
   padding: 3.5px;
 }
 
-.customStatus{
+.customStatus {
   display: inline-flex;
 }
 
-.customStatus img{
+.customStatus img {
   width: 15px;
   height: 15px;
   margin-right: 3.5px;
 }
 
-.spotifyStatus span i{
+.spotifyStatus span i {
   color: #1ed760;
   margin: 3px;
 }
 
-.spotifyStatus a:hover{
+.spotifyStatus a:hover {
   color: #1ed760;
 }
 
-svg{
+svg {
   margin: auto;
 }
 
-.menu{
+.menu {
   margin: 0 5px;
   margin-bottom: 6px;
 }
 
 
-.biFlag{
+.biFlag {
   width: 18px;
   height: 18px;
   margin-right: 8px;
 }
 
-.pFlag{
+.pFlag {
   display: inline-flex;
   align-items: center;
 }
 
-.pFlag a{
-  display:contents;
+.pFlag a {
+  display: contents;
 }

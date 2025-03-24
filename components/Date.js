@@ -1,6 +1,6 @@
 'use client'
 
-export function Age(){
+export function Age() {
     let bdayMs = new Date("2008-05-03").getTime();
     let currentMs = new Date().getTime();
     let diff = currentMs - bdayMs;
@@ -9,7 +9,7 @@ export function Age(){
 }
 
 
-export function TimeOffset(){
+export function TimeOffset() {
     let utcDate = new Date();
     utcDate.setHours(0, 0, 0, 0);
     let strDateWWA = utcDate.toLocaleString("en-US", {
@@ -17,15 +17,15 @@ export function TimeOffset(){
     });
     let offset = parseFloat((new Date(strDateWWA) - utcDate) / (1000 * 60 * 60));
 
-    if(offset < 0){
+    if (offset < 0) {
         return <p>⏰ Your time is {offset * -1}h behind mine (<a target="_blank" href="https://time.is/Warsaw">Europe/Warsaw</a>).</p>;
-    }else if(offset > 0){
+    } else if (offset > 0) {
         return <p>⏰ Your time is {offset}h ahead of mine (<a target="_blank" href="https://time.is/Warsaw">Europe/Warsaw</a>).</p>;
-    }else{
+    } else {
         return <p>⏰ My timezone is <a target="_blank" href="https://time.is/Warsaw">Europe/Warsaw.</a></p>;
     }
 
 }
-    
-    
+
+
 
