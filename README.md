@@ -1,4 +1,4 @@
-# 🌐 NivereQ's Personal Website
+# 🌐 nivereq's Personal Website
 
 Welcome to my personal website! 🚀 This project showcases the most important information about me in a clean and minimalistic way.
 
