@@ -29,7 +29,7 @@ This website is deployed using **GitHub Pages**. You can visit it here: [nivereq
 
 If you want to reach out, you can find me on:
 - **YouTube** 🎥: [@urnivereq](https://www.youtube.com/@urnivereq)
-- **Discord** 💬: [Join my server](https://discord.gg/rVQW6sHfAv)
+- **Discord** 💬: [Join my server](https://discord.nivereq.pl)
 - **Mail** 📧: [kontakt@nivereq.pl](mailto:kontakt@nivereq.pl)
 
 Thanks for visiting! ✨

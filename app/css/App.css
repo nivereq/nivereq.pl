@@ -43,7 +43,7 @@ p a {
 
 footer {
   color: var(--lighter);
-  padding: 10px;
+  padding: 12.5px;
   border-top: 3.5px dotted var(--foreground);
   text-align: center;
   font-weight: 300;
@@ -119,27 +119,7 @@ h1:hover {
   color: #1ed760;
 }
 
-svg {
-  margin: auto;
-}
-
 .menu {
   margin: 0 5px;
   margin-bottom: 6px;
-}
-
-
-.biFlag {
-  width: 18px;
-  height: 18px;
-  margin-right: 8px;
-}
-
-.pFlag {
-  display: inline-flex;
-  align-items: center;
-}
-
-.pFlag a {
-  display: contents;
 }

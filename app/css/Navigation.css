@@ -18,23 +18,23 @@ nav div.brand {
 .brand img {
     border: solid transparent;
     border-radius: 50%;
-    width: 55.5px;
-    height: 55.5px;
-    margin-right: 18px;
+    width: 55.75px;
+    height: 55.75px;
+    margin-right: 18.25px;
     transition: 0.275s;
-    animation: load-image 1.25s linear;
+    animation: load-image 1.275s linear;
 }
 
 .brand img:hover {
-    transform: rotate(360deg) scale(1.125);
+    transform: rotate(360deg) scale(1.1375);
 }
 
 nav div h1 {
-    font-size: 30px;
+    font-size: 31.5px;
     float: left;
     margin: 0;
     line-height: 35.225px;
-    font-weight: 700;
+    font-weight: 720;
 }
 
 @keyframes load-image {
