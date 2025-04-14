@@ -7,7 +7,7 @@ Welcome to my personal website! 🚀 This project showcases the most important i
 - 🖥️ Built with **Next.js** and **React**
 - 🎨 Simple and modern UI
 - 🌑 Light/Dark theme toggle
-- 🌍 Hosted on **GitHub Pages**
+- 🌍 Currently not hosted (soon'll be hosted on **Cloudflare Pages**)
 
 ## 🛠️ Technologies Used
 
@@ -18,7 +18,7 @@ Welcome to my personal website! 🚀 This project showcases the most important i
 
 ## 🚀 Deployment
 
-This website is deployed using **GitHub Pages**. You can visit it here: [nivereq.pl](https://nivereq.pl)
+This website is not current deployed(soon will be deployed using **Cloudflare Pages**). Currently You cannot visit it!
 
 ## 📜 License
 
