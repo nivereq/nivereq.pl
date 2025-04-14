@@ -1,8 +1,7 @@
-import { NextIntlConfig } from 'next-intl';
-
-const config: NextIntlConfig = {
-  locales: ['en', 'pl'],
-  defaultLocale: 'pl'
-};
-
+const config = {
+    locales: ['en', 'pl'],
+    defaultLocale: 'pl',
+    localePrefix: 'as-needed'
+  };
+  
 export default config;
