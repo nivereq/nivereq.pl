@@ -1,0 +1,289 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+
+:root {
+  --background: #fdfdfd;
+  --foreground: #0a0a0a;
+
+  --background--lighter: #f8f8f8;
+
+  --brand-color: #36cccc;
+  --brand-color-highlight: #4ae0e0;
+
+  --url: #36cccc;
+  --url-highlight: #4ae0e0;
+
+  --lighter: #5a5a5a;
+    @theme{
+      --shadow-md: 0 4px 6px -1px rgb(0, 0, 0, 0.1), 0 2px 4px -2px rgb(0, 0, 0, 0.1);
+    }
+  
+
+  @variant dark {
+    --background: #000000;
+    --background--lighter: #0c0c0c;
+    --foreground: #fdfdfd;
+    --brand-color: #36cccc;
+    --brand-color-highlight: #4ae0e0;
+    --url: #36cccc;
+    --url-highlight: #4ae0e0;
+    --lighter: #ffffff;
+    @theme{
+      --shadow-md: 0 4px 6px -1px rgb(255, 255, 255, 0.1), 0 2px 4px -2px rgb(255, 255, 255, 0.1);
+    }
+  }
+}
+ 
+
+
+.spotifyStatus i{
+  margin-right: 5px;
+}
+.spotifyStatus a:hover{
+  color: #1ed760;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 0 30px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h2.nickname {
+  font-size: 19.5px;
+  padding: 5px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 17px;
+  margin-top: 12.5px;
+  font-weight: 400;
+}
+
+p a {
+  color: var(--url);
+  font-weight: 500;
+  transition: 0.275s;
+}
+
+
+.avatar {
+  border-radius: 50%;
+}
+
+.themeswitcher {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+}
+
+.themeswitcher .toggler {
+  text-align: center;
+  justify-content: center;
+  padding: 3.5px;
+  width: 38px;
+  height: 38px;
+  background: var(--background-lighter);
+  border-radius: 50%;
+  border: 1px solid var(--foreground-lighter)
+}
+
+.themeswitcher .toggler i {
+  font-size: 20px;
+}
+
+
+button.icon {
+  border: 1px solid red;
+}
+
+button:has(.themeicon) {
+  cursor: pointer;
+}
+
+.themeoptions{
+  background-color: var(--background--lighter);
+}
+
+.themeoptions a {
+  font-weight: 500;
+  background-color: var(--background--lighter);
+}
+
+.themeoptions * {
+  padding: 1.5px;
+  margin: 3px;
+  border-bottom: 1px solid var(--foreground);
+  background-color: var(--background--lighter);
+}
+
+.themeoptions *:hover {
+  color: var(--lighter);
+}
+
+a:hover {
+  color: var(--url-highlight);
+}
+
+.themeoptions *:last-child {
+  border-bottom: none;
+}
+
+.themeoptions {
+  width: 95.25px;
+  cursor: pointer;
+  padding: .35rem;
+  border: 1px solid var(--foreground);
+  border-radius: 10px;
+}
+
+footer {
+  color: var(--lighter);
+  padding: 13.5px;
+  border-top: 1.5px dotted var(--foreground);
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  height: 4rem;
+}
+
+footer a {
+  display: contents;
+  color: var(--url);
+  transition: 0.275s;
+}
+
+footer a:hover {
+  color: var(--url-highlight);
+}
+
+
+.status {
+  font-size: 13px;
+  padding: 3.5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.customStatus {
+  display: inline-flex;
+}
+
+.customStatus img {
+  width: 13px;
+  height: 13px;
+  margin-right: 3.5px;
+}
+
+section span.social {
+  position: relative;
+}
+
+section:has(span.social) {
+  justify-content: center;
+  align-items: center;
+}
+
+span.social {
+  padding: 8px;
+  margin: 1.5px;
+  display: inline;
+}
+
+span.social i {
+  font-size: 24.25px;
+  color: var(--brand-color);
+  position: relative;
+  text-decoration: slategrey;
+}
+
+.social i:hover {
+  color: var(--brand-color-highlight);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+/* Letter spacing animation */
+@keyframes text-spacing {
+  0% {
+    letter-spacing: 14.5px;
+  }
+}
+
+.anim-text-spacing {
+  animation: text-spacing 0.25s linear;
+}
+
+/* From transparent to opaque */
+@keyframes appearing {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.anim-appearing {
+  animation: appearing 0.6s ease-in;
+}
+
+.avatar {
+  border: solid transparent;
+  border-radius: 50%;
+  transition: 0.275s;
+  animation: load-image 1.275s linear;
+}
+
+.avatar:hover {
+  transform: rotate(360deg) scale(1.1375);
+}
+
+section {
+  margin: 0 auto;
+  padding: 3px 30px;
+}
+
+section h2.section-title {
+  margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+  .brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0 auto;
+  }
+
+  .brand img {
+    width: 62.5px;
+    height: 62.5px;
+    margin-right: .525rem;
+  }
+  p{
+    font-weight: 300;
+  }
+  .brand h2{
+    display: flex;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "HomePage": {
+    "new-locale": "en",
+    "title": {
+      "aboutme": "O mnie:",
+      "socials": "Moje sociale:"
+    },
+    "eastereggs": {
+      "1": "🥚 Hej, właśnie odkryłeś easter egg'a o numerze #1! Gratulacje! 🎉"
+    },
+    "paragraph": {
+      "iam": "👨 Mam <age></age> lat i pochodzę z <city>Trójmiasta</city>.",
+      "orientation": "🏳️‍🌈 Jestem <orientation>Biseksualny</orientation>.",
+      "relationship": "💖 Zajęty przez mojego słodziaka :3.",
+      "fandom": "🦊 Jestem <furry>futrzakiem</furry>, a moja <furref>fursona</furref> to arktyczny lis.",
+      "passion1": "📷 Uwielbiam robić zdjęcia, wszystkiego co żywe, ale także i martwej natury.",
+      "passion2": "💻 Moją pasją jest programowanie.",
+      "musictaste": "🎧 Mój gust muzyczny to chaos — <playlist>moja playlista</playlist>.",
+      "dream": "🌍 Marzę o podróżach po Europie i odwiedzeniu USA.",
+      "favnums": "🔢 Moje ulubione liczby to 7, 18 i 760"
+    },
+    "footer": {
+      "text": "©2025 by nivereq | wszelkie prawa zastrzeżone 🔒 | stworzone z dumą przez futrzaka. 🐾 ~ <switch>english</switch>"
+    },
+    "themes": {
+      "dark": "Ciemny",
+      "light": "Jasny",
+      "system": "Systemowy"
+    }
+  }
+}

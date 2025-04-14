@@ -1,0 +1,32 @@
+{
+  "HomePage": {
+    "new-locale": "pl",
+    "title": {
+      "aboutme": "About me:",
+      "socials": "My socials:"
+    },
+    "eastereggs": {
+      "1": "🥚 Hey, you just discovered easter egg #1! Congrats! 🎉"
+    },
+    
+    "paragraph": {
+      "iam": "👨 I'm <age></age> and from the <city>Tricity area</city> in Poland.",
+      "orientation": "🏳️‍🌈 I'm <orientation>Bisexual</orientation>.",
+      "relationship": "💖 Taken by my cutie :3.",
+      "fandom": "🦊 I'm a <furry>furry</furry>, and my <furref>fursona</furref> is Arctic fox.",
+      "passion1": "📷  I love taking photos—animals, nature, and even still life.",
+      "passion2": "💻 Passionate about coding.",
+      "musictaste": "🎧  My music taste is pure chaos — here's <playlist>my playlist</playlist>.",
+      "dream": "🌍 I dream of traveling across Europe and visiting the USA.",
+      "favnums": "🔢 My favorite numbers are 7, 18, and 760."
+    },
+    "footer": {
+      "text": "©2025 by nivereq | all rights reserved 🔒| crafted with pride by a cute furry. 🐾 ~ <switch>polski</switch>"
+    },
+    "themes": {
+      "dark": "Dark",
+      "light": "Light",
+      "system": "System"
+    }
+  }
+}

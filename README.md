@@ -6,14 +6,14 @@ Welcome to my personal website! 🚀 This project showcases the most important i
 
 - 🖥️ Built with **Next.js** and **React**
 - 🎨 Simple and modern UI
-- 🌑 Light/Dark theme toggle *(automatically switches based on device preferences)*
+- 🌑 Light/Dark theme toggle
 - 🌍 Hosted on **GitHub Pages**
 
 ## 🛠️ Technologies Used
 
 - **Next.js** ⚡
 - **React.js** ⚛️
-- **JavaScript (ES6+)** ✨
+- **TypeScript (ES6+)**
 - **CSS** 🎨
 
 ## 🚀 Deployment
