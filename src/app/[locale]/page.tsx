@@ -12,6 +12,13 @@ const inconsolata = Inconsolata({
   style: 'normal'
 })
 
+export async function generateStaticParams() {
+  return [
+      { locale: 'pl' },
+      { locale: 'en' }
+  ];
+}
+
 export default function HomePage() {
   const t = useTranslations('HomePage');
   return (
