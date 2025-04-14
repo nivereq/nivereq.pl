@@ -7,5 +7,5 @@ const nextConfig: NextConfig = {
   },
 };
  
-const withNextIntl = createNextIntlPlugin();
+const withNextIntl = createNextIntlPlugin('./next-intl.config.ts');
 export default withNextIntl(nextConfig);
