@@ -23,6 +23,7 @@ This website is not current deployed(soon will be deployed using **Cloudflare Pa
 ## 📜 License
 
 `Copyright (C) 2025 @nivereq`
+
 `All Rights Reserved.`
 
 ## 📬 Contact
