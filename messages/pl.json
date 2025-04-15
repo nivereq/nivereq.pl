@@ -2,8 +2,7 @@
   "HomePage": {
     "new-locale": "en",
     "title": {
-      "aboutme": "O mnie:",
-      "socials": "Moje sociale:"
+      "aboutme": "O mnie:"
     },
     "eastereggs": {
       "1": "🥚 Hej, właśnie odkryłeś easter egg'a o numerze #1! Gratulacje! 🎉"
@@ -20,7 +19,7 @@
       "favnums": "🔢 Moje ulubione liczby to 7, 18 i 760"
     },
     "footer": {
-      "text": "©2025 by nivereq | wszelkie prawa zastrzeżone 🔒 | stworzone z dumą przez futrzaka. 🐾 ~ <switch>english</switch>"
+      "text": "©2025 by nivereq | wszelkie prawa zastrzeżone 🔒 | stworzone z dumą przez futrzaka. 🐾 ~ <switch>switch to english</switch>"
     },
     "themes": {
       "dark": "Ciemny",

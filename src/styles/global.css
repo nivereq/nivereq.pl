@@ -3,10 +3,11 @@
 
 
 :root {
-  --background: #fdfdfd;
+  --background: #fcfcfc;
   --foreground: #0a0a0a;
 
-  --background--lighter: #f8f8f8;
+  --background-lighter: #ffffff;
+  --util: #0a0a0a;
 
   --brand-color: #36cccc;
   --brand-color-highlight: #4ae0e0;
@@ -15,22 +16,23 @@
   --url-highlight: #4ae0e0;
 
   --lighter: #5a5a5a;
-    @theme{
-      --shadow-md: 0 4px 6px -1px rgb(0, 0, 0, 0.1), 0 2px 4px -2px rgb(0, 0, 0, 0.1);
-    }
+  @theme{
+    --shadow-md: 0 4px 6px -0.75px rgba(10,10,10,0.2), 0 2px 4px -2px rgba(20,20,0,0.2);
+  }
   
 
   @variant dark {
     --background: #000000;
-    --background--lighter: #0c0c0c;
-    --foreground: #fdfdfd;
+    --background-lighter: #101010;
+    --util: #171717;
+    --foreground: #f1f1f1;
     --brand-color: #36cccc;
     --brand-color-highlight: #4ae0e0;
     --url: #36cccc;
     --url-highlight: #4ae0e0;
     --lighter: #ffffff;
     @theme{
-      --shadow-md: 0 4px 6px -1px rgb(255, 255, 255, 0.1), 0 2px 4px -2px rgb(255, 255, 255, 0.1);
+      --shadow-md: 0 4px 6px -0.75px rgba(245,245,245,0.2), 0 2px 4px -2px rgba(235,235,255,0.2);
     }
   }
 }
@@ -95,15 +97,15 @@ p a {
   text-align: center;
   justify-content: center;
   padding: 3.5px;
-  width: 38px;
-  height: 38px;
+  width: 27px;
+  height: 27px;
   background: var(--background-lighter);
   border-radius: 50%;
   border: 1px solid var(--foreground-lighter)
 }
 
 .themeswitcher .toggler i {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 
@@ -116,19 +118,19 @@ button:has(.themeicon) {
 }
 
 .themeoptions{
-  background-color: var(--background--lighter);
+  background-color: var(--background-lighter);
 }
 
 .themeoptions a {
   font-weight: 500;
-  background-color: var(--background--lighter);
+  background-color: var(--background-lighter);
 }
 
 .themeoptions * {
   padding: 1.5px;
   margin: 3px;
   border-bottom: 1px solid var(--foreground);
-  background-color: var(--background--lighter);
+  background-color: var(--background-lighter);
 }
 
 .themeoptions *:hover {
@@ -158,7 +160,7 @@ footer {
   border-top: 1.5px dotted var(--foreground);
   text-align: center;
   font-weight: 300;
-  font-size: 13.5px;
+  font-size: 11.5px;
 }
 
 footer a {
@@ -177,10 +179,12 @@ footer a:hover {
   padding: 3.5px;
   align-items: center;
   justify-content: center;
+  display: flex;
 }
 
 .customStatus {
-  display: inline-flex;
+  display: flex;
+  position: relative;
 }
 
 .customStatus img {
@@ -193,22 +197,19 @@ span.social {
   padding: 8px;
   margin: 1.75px;
   margin-top: auto;
-  display: inline;
+  display: inline-block;
 }
 
 span.social i {
-  font-size: 24.25px;
+  font-size: 23.5px;
   color: var(--brand-color);
   position: relative;
-  text-decoration: slategrey;
+  text-decoration: none;
+  transition: 0.275s;
 }
 
 .social i:hover {
   color: var(--brand-color-highlight);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 
@@ -254,12 +255,20 @@ section {
   padding: 5px 32px;
 }
 
+.divider {
+  display: block;
+  margin: 0 auto;
+  width: 12.5%;
+  height: 2px;
+  background-color: var(--util);
+}
+
 section h2.section-title {
   margin-top: 8px;
   padding-bottom: 4px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 625px) {
   .brand{
     display: flex;
     justify-content: center;
@@ -272,6 +281,9 @@ section h2.section-title {
     width: 62.5px;
     height: 62.5px;
     margin-right: .525rem;
+  }
+  h1{
+    font-size: 25.5px;
   }
   p{
     font-weight: 300;

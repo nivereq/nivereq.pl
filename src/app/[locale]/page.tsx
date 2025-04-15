@@ -30,16 +30,13 @@ export default function HomePage() {
               <ProfilePhoto></ProfilePhoto>
               <h2 className={`nickname ${inconsolata.className}`}>nivereq</h2>
             </div>
-            <SpotifyStatus></SpotifyStatus>
+            <div className="status">
             <CustomStatus></CustomStatus>
-
-
-
-          </section>
-          <section>
-            <h2 className='section-title'>{t("title.socials")}</h2>
+            </div>
+            
             <SocialMedia></SocialMedia>
           </section>
+          <span className="divider"></span>
           <section>
             <h2 className='section-title'>{t("title.aboutme")}</h2>
             <p dangerouslySetInnerHTML={{

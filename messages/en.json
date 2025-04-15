@@ -2,8 +2,7 @@
   "HomePage": {
     "new-locale": "pl",
     "title": {
-      "aboutme": "About me:",
-      "socials": "My socials:"
+      "aboutme": "About me:"
     },
     "eastereggs": {
       "1": "🥚 Hey, you just discovered easter egg #1! Congrats! 🎉"
@@ -21,7 +20,7 @@
       "favnums": "🔢 My favorite numbers are 7, 18, and 760."
     },
     "footer": {
-      "text": "©2025 by nivereq | all rights reserved 🔒| crafted with pride by a cute furry. 🐾 ~ <switch>polski</switch>"
+      "text": "©2025 by nivereq | all rights reserved 🔒| crafted with pride by a cute furry. 🐾 ~ <switch>przełącz na polski</switch>"
     },
     "themes": {
       "dark": "Dark",

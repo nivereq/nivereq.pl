@@ -34,14 +34,7 @@ export function SpotifyStatus() {
         socket: true,
     });
 
-    if (!loading && status && status.spotify && status.listening_to_spotify) {
-        return (
-            <div className="status spotifyStatus anim-appearing">
-
-                <a href={"https://open.spotify.com/track/" + status.spotify.track_id}><span><i style={{ color: "#1ed760" }} className="bi bi-spotify" /></span><span className="artistName">{status.spotify.artist}</span> - <span className="songName">{status.spotify.song}</span></a>
-            </div>
-        )
-    }
+    
 }
 
 export function CustomStatus() {
@@ -50,28 +43,37 @@ export function CustomStatus() {
         socket: true,
     });
 
-    if (!loading && status && status.activities[0] && status.activities[0].id == "custom") {
-        let statusString = "";
-        let { emoji, state } = status.activities[0];
-        if (emoji) {
-            if (!emoji.id) {
-                statusString += emoji.name;
-            } else {
-
-                return (
-                    <span className="status customStatus anim-appearing">
-                        <Image width={18} height={18} alt="" className="emote" src={"https://cdn.discordapp.com/emojis/" + emoji.id + `${emoji.animated ? ".gif" : ""}`}></Image>
-                        <span className="statusText">{state}</span>
-                    </span>
-                )
-            }
-        }
-
-        statusString += state
+    if (!loading && status && status.spotify && status.listening_to_spotify) {
         return (
-            <span className="customStatus anim-appearing">
-                <span className="statusText">{emoji ? emoji.name : ""}{state}</span>
-            </span>
+            <div className="status spotifyStatus anim-appearing">
+
+                <a href={"https://open.spotify.com/track/" + status.spotify.track_id}><span><i style={{ color: "#1ed760" }} className="bi bi-spotify" /></span><span className="artistName">{status.spotify.artist}</span> - <span className="songName">{status.spotify.song}</span></a>
+            </div>
         )
+    }else{
+        if (!loading && status && status.activities[0] && status.activities[0].id == "custom") {
+            let statusString = "";
+            let { emoji, state } = status.activities[0];
+            if (emoji) {
+                if (!emoji.id) {
+                    statusString += emoji.name;
+                } else {
+    
+                    return (
+                        <span className="status customStatus anim-appearing">
+                            <Image width={18} height={18} alt="" className="emote" src={"https://cdn.discordapp.com/emojis/" + emoji.id + `${emoji.animated ? ".gif" : ""}`}></Image>
+                            <span className="statusText">{state}</span>
+                        </span>
+                    )
+                }
+            }
+    
+            statusString += state
+            return (
+                <span className="customStatus anim-appearing">
+                    <span className="statusText">{emoji ? emoji.name : ""}{state}</span>
+                </span>
+            )
+        }
     }
 }
