@@ -47,30 +47,30 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  max-width: 750px;
+  max-width: 850px;
   margin: 30px auto;
   padding: 0 30px;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 28.5px;
   font-weight: 700;
 }
 
 h2.nickname {
-  font-size: 19.5px;
+  font-size: 20px;
   padding: 5px;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 23.5px;
   font-weight: 500;
 }
 
 p {
-  font-size: 17px;
-  margin-top: 12.5px;
+  font-size: 18px;
+  margin-top: 13px;
   font-weight: 400;
 }
 
@@ -153,12 +153,12 @@ a:hover {
 
 footer {
   color: var(--lighter);
-  padding: 13.5px;
+  padding: 12.5px;
+  margin-top: 22.5px;
   border-top: 1.5px dotted var(--foreground);
   text-align: center;
   font-weight: 300;
-  font-size: 14px;
-  height: 4rem;
+  font-size: 13.5px;
 }
 
 footer a {
@@ -189,18 +189,10 @@ footer a:hover {
   margin-right: 3.5px;
 }
 
-section span.social {
-  position: relative;
-}
-
-section:has(span.social) {
-  justify-content: center;
-  align-items: center;
-}
-
 span.social {
   padding: 8px;
-  margin: 1.5px;
+  margin: 1.75px;
+  margin-top: auto;
   display: inline;
 }
 
@@ -259,11 +251,12 @@ span.social i {
 
 section {
   margin: 0 auto;
-  padding: 3px 30px;
+  padding: 5px 32px;
 }
 
 section h2.section-title {
   margin-top: 8px;
+  padding-bottom: 4px;
 }
 
 @media (max-width: 600px) {

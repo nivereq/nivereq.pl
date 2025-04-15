@@ -7,18 +7,18 @@ Welcome to my personal website! 🚀 This project showcases the most important i
 - 🖥️ Built with **Next.js** and **React**
 - 🎨 Simple and modern UI
 - 🌑 Light/Dark theme toggle
-- 🌍 Currently not hosted (soon'll be hosted on **Cloudflare Pages**)
+- 🌍 Hosted on [**Cloudflare Pages**](https://developers.cloudflare.com/pages/)
 
 ## 🛠️ Technologies Used
 
 - **Next.js** ⚡
 - **React.js** ⚛️
-- **TypeScript (ES6+)**
+- **TypeScript** </>
 - **CSS** 🎨
 
 ## 🚀 Deployment
 
-This website is not current deployed(soon will be deployed using **Cloudflare Pages**). Currently You cannot visit it!
+This website is deployed on **Cloudflare Pages**. You can visit it @ [nivereq.pl](https://nivereq.pl)
 
 ## 📜 License
 
@@ -31,6 +31,8 @@ This website is not current deployed(soon will be deployed using **Cloudflare Pa
 If you want to reach out, you can find me on:
 - **YouTube** 🎥: [@urnivereq](https://www.youtube.com/@urnivereq)
 - **Discord** 💬: [Join my server](https://discord.nivereq.pl)
+- **Instagram** 💬: [@urnivereq](https://instagram.nivereq.pl)
+- **X** 🐦: [@nivereq](https://x.nivereq.pl)
 - **Mail** 📧: [kontakt@nivereq.pl](mailto:kontakt@nivereq.pl)
 
 Thanks for visiting! ✨
