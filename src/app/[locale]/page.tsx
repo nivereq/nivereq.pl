@@ -5,6 +5,8 @@ import { Age } from '@/components/Date';
 import SocialMedia from '@/components/SocialMedia';
 import { Inconsolata } from 'next/font/google';
 
+export const runtime = "edge";
+
 const inconsolata = Inconsolata({
   subsets: ['latin'],
   display: 'swap',
@@ -12,12 +14,6 @@ const inconsolata = Inconsolata({
   style: 'normal'
 })
 
-export async function generateStaticParams() {
-  return [
-      { locale: 'pl' },
-      { locale: 'en' }
-  ];
-}
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
