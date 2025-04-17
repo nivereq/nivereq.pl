@@ -48,6 +48,7 @@ const ThemeSwitcher: React.FC = () => {
         return theme == "dark" ? true : false;
     };
 
+    let i = 0;
 
     const t = useTranslations('HomePage');
     return (
@@ -56,18 +57,18 @@ const ThemeSwitcher: React.FC = () => {
                 <MenuButton className="shadow-md data-[hover]:cursor-pointer toggler"><i className={`themeicon bi ${isDark() ? "bi-moon" : "bi-brightness-high"}`}></i></MenuButton>
                 <MenuItems anchor="top" className={`shadow-md themeoptions ${inconsolata.className}`}>
                     <MenuItem>
-                        <a className="block" onClick={() => { handleThemeChange('system') }}>
+                        <a className="block" onClick={() => handleThemeChange('system')}>
                             {t("themes.system")}
                         </a>
                     </MenuItem>
                     <MenuItem>
                         <a className="block" onClick={() => handleThemeChange('light')}>
-                        {t("themes.light")}
+                            {t("themes.light")}
                         </a>
                     </MenuItem>
                     <MenuItem>
                         <a className="block" onClick={() => handleThemeChange('dark')}>
-                        {t("themes.dark")}
+                            {t("themes.dark")}
                         </a>
                     </MenuItem>
                 </MenuItems>

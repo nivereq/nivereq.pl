@@ -268,6 +268,12 @@ section h2.section-title {
   padding-bottom: 4px;
 }
 
+.brand{
+  justify-content: center;
+  align-items: center;
+}
+
+
 @media (max-width: 625px) {
   .brand{
     display: flex;
@@ -276,7 +282,13 @@ section h2.section-title {
     padding: 0.5rem;
     margin: 0 auto;
   }
-
+  span.social{
+    padding: 6.7px;
+    margin: 1.25px;
+  }
+  span.social i {
+    font-size: 21px;
+  }
   .brand img {
     width: 62.5px;
     height: 62.5px;

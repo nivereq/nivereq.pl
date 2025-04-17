@@ -1,9 +1,11 @@
 import { useTranslations } from 'next-intl';
 import ThemeSwitcher from '@/components/ThemeSwitcher';
-import { ProfilePhoto, SpotifyStatus, CustomStatus } from '@/components/Lanyard';
+import { ProfilePhoto, CustomStatus } from '@/components/Lanyard';
 import { Age } from '@/components/Date';
 import SocialMedia from '@/components/SocialMedia';
 import { Inconsolata } from 'next/font/google';
+import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
 
 export const runtime = "edge";
 
@@ -21,7 +23,7 @@ export default function HomePage() {
 
     <div>
       <nav>
-        <h1 className="anim-text-spacing">nivereq.pl</h1>
+        <Link href="/"><h1 className="anim-text-spacing">nivereq.pl</h1></Link>
       </nav>
       <div className="container items-center justify-items-center min-h-screen">
         <main>
@@ -31,9 +33,9 @@ export default function HomePage() {
               <h2 className={`nickname ${inconsolata.className}`}>nivereq</h2>
             </div>
             <div className="status">
-            <CustomStatus></CustomStatus>
+              <CustomStatus></CustomStatus>
             </div>
-            
+
             <SocialMedia></SocialMedia>
           </section>
           <span className="divider"></span>
@@ -75,6 +77,7 @@ export default function HomePage() {
         })
       }}></footer>
       <ThemeSwitcher></ThemeSwitcher>
+     
     </div>
   );
 }
