@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.2.1",
+    "@next/third-parties": "^15.3.1",
     "bootstrap-icons": "^1.11.3",
-    "next": "15.3.0",
+    "latest": "^0.2.0",
+    "next": "^15.3.0",
     "next-intl": "^4.0.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

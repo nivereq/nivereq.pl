@@ -2,6 +2,7 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { Lexend } from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -75,6 +76,7 @@ export default async function LocaleLayout({
             <body className={`antialiased ${lexend.className}`}>
                 <NextIntlClientProvider>{children}</NextIntlClientProvider>
             </body>
+            <GoogleAnalytics gaId="G-0V1RV7Q39K" />
         </html>
     );
 }

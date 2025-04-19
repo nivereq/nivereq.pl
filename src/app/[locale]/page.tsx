@@ -43,7 +43,7 @@ export default function HomePage() {
             <h2 className='section-title'>{t("title.aboutme")}</h2>
             <p dangerouslySetInnerHTML={{
               __html: t.markup('paragraph.iam', {
-                age: chunks => Age().toString(),
+                age: chunks => `${Age().toString()}${chunks}`,
                 city: chunks => `<a href='https://www.google.com/maps/place/Tr%C3%B3jmiasto/' target='_blank' rel='noopener noreferrer'>${chunks}</a>`,
               })
             }}></p>
