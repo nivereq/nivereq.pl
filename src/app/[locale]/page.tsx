@@ -77,7 +77,7 @@ export default function HomePage() {
         })
       }}></footer>
       <ThemeSwitcher></ThemeSwitcher>
-     
+     {Age() == 17 ? <Image src="/mc_cake.webp" alt="mc_cake.webp" width={50} height={50} className='decoration'/> : ""}
     </div>
   );
 }
