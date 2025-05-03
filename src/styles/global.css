@@ -93,12 +93,6 @@ p a {
   bottom: 25px;
 }
 
-.decoration {
-  position: fixed;
-  left: 25px;
-  bottom: 25px;
-}
-
 .themeswitcher .toggler {
   text-align: center;
   justify-content: center;

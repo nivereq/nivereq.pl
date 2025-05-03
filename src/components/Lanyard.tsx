@@ -15,13 +15,7 @@ export function ProfilePhoto() {
     if (status) {
         return (
             <>
-                <Image onClick={
-                    e => {
-                        inc++;
-                        if (inc == 7) { inc = 0; alert(t("eastereggs.1")); }
-
-                    }
-                } width={80} height={80} alt="nivereqs pfp" className="shadow-md avatar" src={!loading ? `https://cdn.discordapp.com/avatars/${status?.discord_user.id}/${status.discord_user.avatar}` : `https://cdn.discordapp.com/embed/avatars/1.png`}></Image>
+                <Image width={80} height={80} alt="nivereqs pfp" className="shadow-md avatar" src={!loading ? `https://cdn.discordapp.com/avatars/${status?.discord_user.id}/${status.discord_user.avatar}` : `https://cdn.discordapp.com/embed/avatars/1.png`}></Image>
             </>
         )
     }

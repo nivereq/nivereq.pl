@@ -4,10 +4,6 @@
     "title": {
       "aboutme": "About me:"
     },
-    "eastereggs": {
-      "1": "🥚 Hey, you just discovered easter egg #1! Congrats! 🎉"
-    },
-    
     "paragraph": {
       "iam": "👨 I'm <age></age> and from the <city>Tricity area</city> in Poland.",
       "orientation": "🏳️‍🌈 I'm <orientation>Bisexual</orientation>.",
