@@ -17,12 +17,6 @@ return (
         <span className="social">
             <a target="_blank" title="GitHub" href="https://github.com/nivereq"><i className="bi bi-github"></i></a>
         </span>
-        <span className="social">
-            <a target="_blank" title="Instagram" href="https://instagram.com/urnivereq"><i className="bi bi-instagram"></i></a>
-        </span>
-        <span className="social">
-            <a target="_blank" title="Telegram" href="https://t.me/nivereq"><i className="bi bi-telegram"></i></a>
-        </span>
     </>
 )
 }
