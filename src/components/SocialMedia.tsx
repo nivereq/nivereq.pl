@@ -10,7 +10,7 @@ return (
                 <a target="_blank" title="YouTube" href="https://www.youtube.com/@nivuss7"><i className="bi bi-youtube"></i></a>
             </span>
             <span className="social">
-                <a target="_blank" title="TikTok" href="https://www.tiktok.com/@nivereq"><i className="bi bi-tiktok"></i></a>
+                <a target="_blank" title="TikTok" href="https://www.tiktok.com/@nivuss7"><i className="bi bi-tiktok"></i></a>
             </span>
             {/* <span className="social">
                 <a target="_blank" title="X/Twitter" href="https://x.com/@nivereq"><i className="bi bi-twitter-x"></i></a>
