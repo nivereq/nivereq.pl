@@ -61,7 +61,7 @@ export default function HomePage() {
             <p>{t('paragraph.relationship')}</p>
             <p dangerouslySetInnerHTML={{
               __html: t.markup('paragraph.musictaste', {
-                playlist: chunks => `<a href='https://open.spotify.com/playlist/1PQZoPUTBUS8UUxgLKet50?si=cac38bcaa01d4504m' target='_blank' rel='noopener noreferrer'>${chunks}</a>`,
+                playlist: chunks => `<a href='https://open.spotify.com/playlist/3cNiDjexlMoLc3UMRunN9P?si=4954e51f523842ea' target='_blank' rel='noopener noreferrer'>${chunks}</a>`,
               })
             }}></p>
             <p>{t('paragraph.passion1')}</p>
