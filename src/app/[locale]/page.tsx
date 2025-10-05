@@ -6,6 +6,7 @@ import SocialMedia from '@/components/SocialMedia';
 import { Inconsolata } from 'next/font/google';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
+import Toolbar from '@/components/Toolbar';
 
 export const runtime = "edge";
 
@@ -23,7 +24,7 @@ export default function HomePage() {
 
     <div>
       <nav>
-        <Link href="/"><h1 className="anim-text-spacing">nivereq.pl</h1></Link>
+        <Toolbar page='home'></Toolbar>
       </nav>
       <div className="container items-center justify-items-center min-h-screen">
         <main>
@@ -55,7 +56,7 @@ export default function HomePage() {
             <p dangerouslySetInnerHTML={{
               __html: t.markup('paragraph.fandom', {
                 furry: chunks => `<a href='https://wikipedia.org/wiki/Furry_fandom' target='_blank' rel='noopener noreferrer'>${chunks}</a>`,
-                furref: chunks => `<a href='/nivereq_current_ref.png' target='_blank' rel='noopener noreferrer'>${chunks}</a>`,
+                furref: chunks => `<a href='/fursona' rel='noopener noreferrer'>${chunks}</a>`,
               })
             }}></p>
             <p>{t('paragraph.relationship')}</p>

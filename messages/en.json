@@ -23,5 +23,18 @@
       "light": "Light",
       "system": "System"
     }
+  },
+  "Toolbar": {
+    "home": "Home",
+    "fursona": "Fursona"
+  },
+  "FursonaPage": {
+    "new-locale": "pl/fursona",
+    "title": {
+      "colors": "Colors"
+    },
+      "footer": {
+      "text": "©2025 𝖻𝗒 𝗇𝗂𝗏𝖾𝗋𝖾𝗊 | 𝖺𝗅𝗅 𝗋𝗂𝗀𝗁𝗍𝗌 𝗋𝖾𝗌𝖾𝗋𝗏𝖾𝖽 🔒| 𝖼𝗋𝖺𝖿𝗍𝖾𝖽 𝗐𝗂𝗍𝗁 𝗉𝗋𝗂𝖽𝖾 𝖻𝗒 𝖺 𝖼𝗎𝗍𝖾 𝖿𝗎𝗋𝗋𝗒. 🐾 ~ <switch>przełącz na polski</switch>"
+    }
   }
 }

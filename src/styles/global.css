@@ -273,6 +273,24 @@ section h2.section-title {
   align-items: center;
 }
 
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.toolbar-link{
+  padding: 0.5rem;
+  margin: 0.25rem;
+  font-size: 17.5px;
+  font-weight: 500;
+  color: var(--foreground);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.275s;
+}
 
 @media (max-width: 625px) {
   .brand{
