@@ -1,13 +1,9 @@
 import { useTranslations } from 'next-intl';
 import ThemeSwitcher from '@/components/ThemeSwitcher';
-import { ProfilePhoto, CustomStatus } from '@/components/Lanyard';
-import { Age } from '@/components/Date';
-import SocialMedia from '@/components/SocialMedia';
 import { Inconsolata } from 'next/font/google';
-import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 import Toolbar from '@/components/Toolbar';
-
+import FursonaColors from '@/components/FursonaColors';
 export const runtime = "edge";
 
 const inconsolata = Inconsolata({
@@ -35,10 +31,7 @@ export default function FursonaPage() {
           <section className="items-center justify-items-center">
             <h2 className='section-title'>{t("title.colors")}</h2>
             <div className="flex flex-row justify-center gap-5 mt-12 mb-8 padding-5">
-              <div className="w-16 h-16 rounded-lg" style={{ backgroundColor: '#fc5478' }}></div>
-              <div className="w-16 h-16 rounded-lg" style={{ backgroundColor: '#b2fdef' }}></div>
-              <div className="w-16 h-16 rounded-lg" style={{ backgroundColor: '#e2faf6' }}></div>
-              <div className="w-16 h-16 rounded-lg" style={{ backgroundColor: '#f3fafa' }}></div>
+              <FursonaColors></FursonaColors>
             </div>
           </section>
         </main>
@@ -49,6 +42,7 @@ export default function FursonaPage() {
         })
       }}></footer>
       <ThemeSwitcher></ThemeSwitcher>
+      
     </div>
   );
 }

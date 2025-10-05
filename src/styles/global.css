@@ -278,7 +278,7 @@ section h2.section-title {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.55rem;
 }
 
 .toolbar-link{
@@ -321,4 +321,33 @@ section h2.section-title {
   .brand h2{
     display: flex;
   }
+}
+
+
+.color{
+  cursor: pointer;
+  position: relative;
+  transition: 0.275s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  font-size: 40px;
+  border: var(--foreground) 3px solid;
+}
+
+.color:hover{
+  opacity: 0.85;
+  color: var(--lighter);
+}
+
+.color i {
+  display: none;
+  position: absolute;
+  pointer-events: none;
+}
+
+.color.clicked i{
+  display: contents;
+  color: var(--util);
 }
