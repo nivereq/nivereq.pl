@@ -4,7 +4,7 @@ return (
     <>
         <div>
             <span className="social">
-                <a target="_blank" title="Discord" href="https://discord.com/invite/rVQW6sHfAv"><i className="bi bi-discord"></i></a>
+                <a target="_blank" title="Discord" href="https://discord.nivereq.pl"><i className="bi bi-discord"></i></a>
             </span>
             <span className="social">
                 <a target="_blank" title="YouTube" href="https://www.youtube.com/@nivuss7"><i className="bi bi-youtube"></i></a>
