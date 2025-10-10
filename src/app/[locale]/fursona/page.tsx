@@ -32,6 +32,7 @@ export default function FursonaPage() {
               priority
             ></Image>
           </section>
+          <span className="divider"></span>
           <section
             className="fursona-description"
             dangerouslySetInnerHTML={{
