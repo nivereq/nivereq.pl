@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
-
 :root {
   --background: #fcfcfc;
   --foreground: #0a0a0a;
@@ -16,10 +15,10 @@
   --url-highlight: #4ae0e0;
 
   --lighter: #5a5a5a;
-  @theme{
-    --shadow-md: 0 4px 6px -0.75px rgba(10,10,10,0.2), 0 2px 4px -2px rgba(20,20,0,0.2);
+  @theme {
+    --shadow-md: 0 4px 6px -0.75px rgba(10, 10, 10, 0.2),
+      0 2px 4px -2px rgba(20, 20, 0, 0.2);
   }
-  
 
   @variant dark {
     --background: #000000;
@@ -31,23 +30,24 @@
     --url: #36cccc;
     --url-highlight: #4ae0e0;
     --lighter: #ffffff;
-    @theme{
-      --shadow-md: 0 4px 6px -0.75px rgba(245,245,245,0.2), 0 2px 4px -2px rgba(235,235,255,0.2);
+    @theme {
+      --shadow-md: 0 4px 6px -0.75px rgba(245, 245, 245, 0.2),
+        0 2px 4px -2px rgba(235, 235, 255, 0.2);
     }
   }
 }
- 
-.fursona-description{
+
+.fursona-description {
   font-size: 18px;
   margin-top: 16px;
   font-weight: 400;
   line-height: 1.625;
 }
 
-.spotifyStatus i{
+.spotifyStatus i {
   margin-right: 5px;
 }
-.spotifyStatus a:hover{
+.spotifyStatus a:hover {
   color: #1ed760;
 }
 
@@ -87,7 +87,6 @@ p a {
   transition: 0.275s;
 }
 
-
 .avatar {
   border-radius: 50%;
 }
@@ -106,13 +105,12 @@ p a {
   height: 27px;
   background: var(--background-lighter);
   border-radius: 50%;
-  border: 1px solid var(--foreground-lighter)
+  border: 1px solid var(--foreground-lighter);
 }
 
 .themeswitcher .toggler i {
   font-size: 17px;
 }
-
 
 button.icon {
   border: 1px solid red;
@@ -122,7 +120,7 @@ button:has(.themeicon) {
   cursor: pointer;
 }
 
-.themeoptions{
+.themeoptions {
   background-color: var(--background-lighter);
 }
 
@@ -153,7 +151,7 @@ a:hover {
 .themeoptions {
   width: 95.25px;
   cursor: pointer;
-  padding: .35rem;
+  padding: 0.35rem;
   border: 1px solid var(--foreground);
   border-radius: 10px;
 }
@@ -177,7 +175,6 @@ footer a {
 footer a:hover {
   color: var(--url-highlight);
 }
-
 
 .status {
   font-size: 13px;
@@ -216,7 +213,6 @@ span.social i {
 .social i:hover {
   color: var(--brand-color-highlight);
 }
-
 
 /* Letter spacing animation */
 @keyframes text-spacing {
@@ -273,12 +269,12 @@ section h2.section-title {
   padding-bottom: 4px;
 }
 
-.brand{
+.brand {
   justify-content: center;
   align-items: center;
 }
 
-.toolbar{
+.toolbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -286,7 +282,7 @@ section h2.section-title {
   margin-bottom: 0.55rem;
 }
 
-.toolbar-link{
+.toolbar-link {
   padding: 0.5rem;
   margin: 0.25rem;
   font-size: 17.5px;
@@ -298,14 +294,14 @@ section h2.section-title {
 }
 
 @media (max-width: 625px) {
-  .brand{
+  .brand {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
     margin: 0 auto;
   }
-  span.social{
+  span.social {
     padding: 6.7px;
     margin: 1.25px;
   }
@@ -315,55 +311,45 @@ section h2.section-title {
   .brand img {
     width: 62.5px;
     height: 62.5px;
-    margin-right: .525rem;
+    margin-right: 0.525rem;
   }
-  h1{
+  h1 {
     font-size: 23.5px;
   }
-  p{
+  p {
     font-weight: 300;
   }
-  .brand h2{
+  .brand h2 {
     display: flex;
   }
 }
 
-.reference-sheet{
+.reference-sheet {
   border-radius: 15px;
   box-shadow: var(--shadow-md);
   transition: 0.275s;
 }
 
-.color{
+.color {
   cursor: pointer;
   position: relative;
   transition: 0.275s;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: transparent;
-  font-size: 40px;
+  color: #fafafa;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  font-size: 1rem;
   border: var(--foreground) 3px solid;
 }
 
-.color:hover{
+.color:hover {
   opacity: 0.85;
   color: var(--lighter);
 }
 
-.color i {
-  display: none;
-  position: absolute;
-  pointer-events: none;
-}
-
-.color.clicked i{
-  display: contents;
-  color: var(--util);
-}
-
-
-.fursona-param{
+.fursona-param {
   background-color: var(--brand-color);
   height: 50px;
   line-height: 50px;

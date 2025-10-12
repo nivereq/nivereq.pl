@@ -37,8 +37,9 @@ export default function FursonaPage() {
             className="fursona-description"
             dangerouslySetInnerHTML={{
               __html: t.markup("paragraph.description", {
-                highlight: (chunks) => `<span class="font-bold" style="color: var(--brand-color-highlight)">${chunks}</span>`,
-              })
+                highlight: (chunks) =>
+                  `<span class="font-bold" style="color: var(--brand-color-highlight)">${chunks}</span>`,
+              }),
             }}
           ></section>
 
