@@ -24,7 +24,7 @@ export default function HomePage() {
       <nav>
         <Toolbar page="home"></Toolbar>
       </nav>
-      <div className="container items-center justify-items-center min-h-screen">
+      <div className="container items-center justify-items-center">
         <main>
           <section className="items-center profile justify-items-center">
             <div className="brand">

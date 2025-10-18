@@ -22,7 +22,7 @@ export default function SocialMedia() {
           </a>
         </span>
         <span className="social">
-          <a target="_blank" title="X/Twitter" href="https://x.com/@nivereq">
+          <a target="_blank" title="X/Twitter" href="https://x.com/@nivuss7">
             <i className="bi bi-twitter-x"></i>
           </a>
         </span>

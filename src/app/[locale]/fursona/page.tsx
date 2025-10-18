@@ -20,7 +20,7 @@ export default function FursonaPage() {
       <nav>
         <Toolbar page="fursona"></Toolbar>
       </nav>
-      <div className="container items-center justify-items-center min-h-screen">
+      <div className="container items-center justify-items-center">
         <main>
           <section className="items-center justify-items-center">
             <Image
