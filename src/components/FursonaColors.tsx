@@ -2,7 +2,7 @@
 
 export default function FursonaColors() {
   return (
-    <div className="colors grid grid-cols-2 md:grid-cols-6 gap-4 justify-center gap-5 mt-2 mb-2 padding-5">
+    <div className="grid grid-cols-2 md:grid-cols-5 gap-4 justify-center gap-5 mt-2 mb-2 padding-4">
       <div
         className="w-22 h-12 rounded-3xl color"
         style={{ cursor: "pointer", backgroundColor: "#fa557a" }}

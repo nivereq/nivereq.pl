@@ -81,7 +81,7 @@ export default async function LocaleLayout({
       <body className={`antialiased ${lexend.className}`}>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
-      <GoogleAnalytics gaId="G-0V1RV7Q39K" />
+      <GoogleAnalytics gaId="G-4FW7GKT39B" />
     </html>
   );
 }

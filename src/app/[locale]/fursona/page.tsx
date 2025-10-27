@@ -4,6 +4,8 @@ import { Inconsolata } from "next/font/google";
 import Image from "next/image";
 import Toolbar from "@/components/Toolbar";
 import FursonaColors from "@/components/FursonaColors";
+import { Twemoji } from "react-emoji-render";
+import { Age } from "@/components/Date";
 export const runtime = "edge";
 
 const inconsolata = Inconsolata({
@@ -47,6 +49,16 @@ export default function FursonaPage() {
             <h2 className="section-title">{t("title.colors")}</h2>
             <div className="flex flex-row justify-center gap-5 mt-12 mb-8 padding-5">
               <FursonaColors></FursonaColors>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="section-title">{t("title.parameters")}</h2>
+            
+            <div className="flex flex-row justify-center gap-5 mt-12 mb-8 padding-5">
+              <div className="param w-40 h-12 rounded-3xl"><Twemoji className="emoji" text={`📏｜176cm`} /></div>
+              <div className="param w-40 h-12 rounded-3xl"><Twemoji className="emoji" text={`🦊｜${t("parameters.species")}`} /></div>
+              <div className="param w-40 h-12 rounded-3xl"><Twemoji className="emoji" text={`💫｜${Age()} ${t("parameters.age")}`} /></div>
             </div>
           </section>
         </main>

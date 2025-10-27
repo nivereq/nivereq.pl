@@ -333,12 +333,16 @@ section h2.section-title {
 .color {
   cursor: pointer;
   position: relative;
+    text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
   transition: 0.275s;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fafafa;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+  text-shadow: -0.75px -0.75px 0 black, 1px -0.75px 0 black, -0.75px 1px 0 black,
     1px 1px 0 black;
   font-size: 1rem;
   border: var(--foreground) 3px solid;
@@ -359,4 +363,27 @@ section h2.section-title {
   border-radius: 12px;
   text-align: center;
   font-weight: 500;
+}
+
+
+.param{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  color: #fafafa;
+  text-shadow: -0.75px -0.75px 0 black, 1px -0.75px 0 black, -0.75px 1px 0 black,
+    1px 1px 0 black;
+  font-size: 1rem;
+  border: var(--foreground) 3px solid;
+  background: var(--background-lighter);
+}
+
+
+.emoji{
+  /* align-self: center; */
+  display: contents;
 }
