@@ -8,6 +8,7 @@
       "iam": "👨 Mam <age></age> lat i pochodzę z <city>Trójmiasta</city>.",
       "orientation": "🏳️‍🌈 Jestem <orientation>Biseksualny</orientation>.",
       "relationship": "❤️ Zajęty przez najsłodszego psiaka na świecie.",
+      "femboy": "🧦 Jestem <femboy>femboyem</femboy>.",
       "fandom": "🦊 Jestem <furry>futrzakiem</furry>, a moja <furref>fursona</furref> to arktyczny lis.",
       "passion1": "📷 Uwielbiam robić zdjęcia, wszystkiego co żywe, ale także i martwej natury.",
       "passion2": "💻 Moją pasją jest programowanie.",
@@ -39,7 +40,9 @@
     },
     "parameters":{
       "species": "Arktyczny Lis",
-      "age": "lat"
+      "age": "lat, mężczyzna",
+      "pronouns": "on/jego",
+      "height": "176cm"
     },
     "footer": {
       "text": "©2025 𝖻𝗒 𝗇𝗂𝗏𝖾𝗋𝖾𝗊 | 𝗐𝗌𝗓𝖾𝗅𝗄𝗂𝖾 𝗉𝗋𝖺𝗐𝖺 𝗓𝖺𝗌𝗍𝗋𝗓𝖾ż𝗈𝗇𝖾 🔒 | 𝗌𝗍𝗐𝗈𝗋𝗓𝗈𝗇𝖾 𝗓 𝖽𝗎𝗆ą 𝗉𝗋𝗓𝖾𝗓 𝖿𝗎𝗍𝗋𝗓𝖺𝗄𝖺. 🐾 ~ <switch>switch to english</switch>"

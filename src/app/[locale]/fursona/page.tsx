@@ -47,7 +47,7 @@ export default function FursonaPage() {
 
           <section>
             <h2 className="section-title">{t("title.colors")}</h2>
-            <div className="flex flex-row justify-center gap-5 mt-12 mb-8 padding-5">
+            <div className="flex flex-row justify-center gap-3 mt-12 mb-8 padding-3">
               <FursonaColors></FursonaColors>
             </div>
           </section>
@@ -55,10 +55,11 @@ export default function FursonaPage() {
           <section>
             <h2 className="section-title">{t("title.parameters")}</h2>
             
-            <div className="flex flex-row justify-center gap-5 mt-12 mb-8 padding-5">
-              <div className="param w-40 h-12 rounded-3xl"><Twemoji className="emoji" text={`📏｜176cm`} /></div>
-              <div className="param w-40 h-12 rounded-3xl"><Twemoji className="emoji" text={`🦊｜${t("parameters.species")}`} /></div>
-              <div className="param w-40 h-12 rounded-3xl"><Twemoji className="emoji" text={`💫｜${Age()} ${t("parameters.age")}`} /></div>
+            <div className="flex flex-row justify-center gap-2 mt-12 mb-8 padding-3">
+              <div className="param w-26 h-12 rounded-3xl"><Twemoji className="emoji" text={`📏 ${t("parameters.height")}`} /></div>
+              <div className="param w-38 h-12 rounded-3xl"><Twemoji className="emoji" text={`🧑  ${t("parameters.pronouns")}`} /></div>
+              <div className="param w-46 h-12 rounded-3xl"><Twemoji className="emoji" text={`💫  ${Age()} ${t("parameters.age")}`} /></div>
+              <div className="param w-40 h-12 rounded-3xl"><Twemoji className="emoji" text={`🦊  ${t("parameters.species")}`} /></div>
             </div>
           </section>
         </main>

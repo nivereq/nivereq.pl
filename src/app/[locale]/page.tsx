@@ -67,6 +67,14 @@ export default function HomePage() {
                 }),
               }}
             ></p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: t.markup("paragraph.femboy", {
+                  femboy: (chunks) =>
+                    `<a href='https://wikipedia.org/wiki/Femboy' target='_blank' rel='noopener noreferrer'>${chunks}</a>`,
+                }),
+              }}
+            ></p>
             <p>{t("paragraph.relationship")}</p>
             <p
               dangerouslySetInnerHTML={{

@@ -7,6 +7,7 @@
     "paragraph": {
       "iam": "👨 I'm <age></age> and from the <city>Tricity area</city> in Poland.",
       "orientation": "🏳️‍🌈 I'm <orientation>Bisexual</orientation>.",
+      "femboy": "🧦 I'm a <femboy>femboy</femboy>.",
       "relationship": "❤️ Taken by cutiest dog in da world.",
       "fandom": "🦊 I'm a <furry>furry</furry>, and my <furref>fursona</furref> is Arctic fox.",
       "passion1": "📷  I love taking photos—animals, nature, and even still life.",
@@ -39,7 +40,9 @@
     },
      "parameters":{
       "species": "Arctic Fox",
-      "age": "yo"
+      "age": "yo, male",
+      "pronouns": "he/him",
+      "height": "5'9\""
     },
     "footer": {
       "text": "©2025 𝖻𝗒 𝗇𝗂𝗏𝖾𝗋𝖾𝗊 | 𝖺𝗅𝗅 𝗋𝗂𝗀𝗁𝗍𝗌 𝗋𝖾𝗌𝖾𝗋𝗏𝖾𝖽 🔒| 𝖼𝗋𝖺𝖿𝗍𝖾𝖽 𝗐𝗂𝗍𝗁 𝗉𝗋𝗂𝖽𝖾 𝖻𝗒 𝖺 𝖼𝗎𝗍𝖾 𝖿𝗎𝗋𝗋𝗒. 🐾 ~ <switch>przełącz na polski</switch>"
