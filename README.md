@@ -18,7 +18,7 @@ Welcome to my personal website! 🚀 This project showcases the most important i
 
 ## 🚀 Deployment
 
-This website is deployed on **Cloudflare Pages**. You can visit it @ [nivereq.pl](https://nivereq.pl)
+This website is deployed on **Cloudflare Pages**. You can visit it @ [nivereq.gay](https://nivereq.gay)
 
 ## 📜 License
 
@@ -29,10 +29,10 @@ This website is deployed on **Cloudflare Pages**. You can visit it @ [nivereq.pl
 ## 📬 Contact
 
 If you want to reach out, you can find me on:
-- **YouTube** 🎥: [@urnivereq](https://www.youtube.com/@urnivereq)
-- **Discord** 💬: [Join my server](https://discord.nivereq.pl)
-- **Instagram** 💬: [@urnivereq](https://instagram.nivereq.pl)
-- **X** 🐦: [@nivereq](https://x.nivereq.pl)
-- **Mail** 📧: [kontakt@nivereq.pl](mailto:kontakt@nivereq.pl)
+- **YouTube** 🎥: [@nivuss7](https://www.youtube.com/@nivuss7)
+- **Discord** 💬: [Join my server](https://discord.nivereq.gay)
+- **Instagram** 💬: [@univuss7](https://instagram.nivereq.gay)
+- **X** 🐦: [@nivuss7](https://x.nivereq.gay)
+- **Mail** 📧: [contact@nivereq.gay](mailto:contact@nivereq.gay)
 
 Thanks for visiting! ✨

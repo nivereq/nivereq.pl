@@ -16,7 +16,7 @@ const lexend = Lexend({
 });
 
 export const metadata = {
-  title: "nivereq.pl",
+  title: "nivereq.gay",
   keywords: [
     "nivereq",
     "youtube",
@@ -27,7 +27,7 @@ export const metadata = {
   ],
   description: "🦊 *yelping at you*",
   appleWebApp: {
-    title: "nivereq.pl",
+    title: "nivereq.gay",
   },
   robots: {
     index: true,
@@ -49,13 +49,13 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "nivereq.pl",
+    title: "nivereq.gay",
     description: "🦊 *yelping at you*",
-    url: "https://nivereq.pl",
-    siteName: "nivereq.pl",
+    url: "https://nivereq.gay",
+    siteName: "nivereq.gay",
     images: [
       {
-        url: "https://nivereq.pl/opengraph-image.png",
+        url: "https://nivereq.gay/opengraph-image.png",
         width: 192,
         height: 192,
       },
