@@ -4,8 +4,6 @@ import { ProfilePhoto, CustomStatus } from "@/components/Lanyard";
 import { Age } from "@/components/Date";
 import SocialMedia from "@/components/SocialMedia";
 import { Inconsolata } from "next/font/google";
-import { Link } from "@/i18n/navigation";
-import Image from "next/image";
 import Toolbar from "@/components/Toolbar";
 
 export const runtime = "edge";

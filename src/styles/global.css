@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); /* Dark mode variant */
 
 :root {
   --background: #fcfcfc;
@@ -18,7 +18,7 @@
   @theme {
     --shadow-md: 0 4px 6px -0.75px rgba(10, 10, 10, 0.2),
       0 2px 4px -2px rgba(20, 20, 0, 0.2);
-  }
+  } /* Light mode shadow */
 
   @variant dark {
     --background: #000000;
@@ -34,24 +34,24 @@
       --shadow-md: 0 4px 6px -0.75px rgba(245, 245, 245, 0.2),
         0 2px 4px -2px rgba(235, 235, 255, 0.2);
     }
-  }
+  } /* Dark mode shadow */
 }
 
-.fursona-description {
+.fursona-description { /* New class for fursona description */
   font-size: 18px;
   margin-top: 16px;
   font-weight: 400;
   line-height: 1.625;
 }
 
-.spotifyStatus i {
+.spotifyStatus i { /* Spotify icon styling */
   margin-right: 5px;
 }
-.spotifyStatus a:hover {
+.spotifyStatus a:hover { /* Spotify link hover effect */
   color: #1ed760;
 }
 
-body {
+body { /* Global body styles */
   background: var(--background);
   color: var(--foreground);
   max-width: 850px;
@@ -59,45 +59,45 @@ body {
   padding: 0 30px;
 }
 
-h1 {
+h1 { /* Main heading styles */
   font-size: 28.5px;
   font-weight: 700;
 }
 
-h2.nickname {
+h2.nickname { /* Nickname heading styles */
   font-size: 20px;
   padding: 5px;
   font-weight: 700;
 }
 
-h2 {
+h2 { /* Section heading styles */
   font-size: 23.5px;
   font-weight: 500;
 }
 
-p {
+p { /* Paragraph styles */
   font-size: 18px;
   margin-top: 13px;
   font-weight: 400;
 }
 
-p a {
+p a { /* Link styles within paragraphs */
   color: var(--url);
   font-weight: 500;
   transition: 0.275s;
 }
 
-.avatar {
+.avatar { /* Avatar image styles */
   border-radius: 50%;
 }
 
-.themeswitcher {
+.themeswitcher { /* Theme switcher button styles */
   position: fixed;
   right: 25px;
   bottom: 25px;
 }
 
-.themeswitcher .toggler {
+.themeswitcher .toggler { /* Theme switcher toggler styles */
   text-align: center;
   justify-content: center;
   padding: 3.5px;
@@ -108,47 +108,47 @@ p a {
   border: 1px solid var(--foreground-lighter);
 }
 
-.themeswitcher .toggler i {
+.themeswitcher .toggler i { /* Icon styles within theme switcher */
   font-size: 17px;
 }
 
-button.icon {
+button.icon { /* Icon button styles */
   border: 1px solid red;
 }
 
-button:has(.themeicon) {
+button:has(.themeicon) { /* Button styles containing themeicon */
   cursor: pointer;
 }
 
-.themeoptions {
+.themeoptions { /* Theme options container styles */
   background-color: var(--background-lighter);
 }
 
-.themeoptions a {
+.themeoptions a { /* Theme option link styles */
   font-weight: 500;
   background-color: var(--background-lighter);
 }
 
-.themeoptions * {
+.themeoptions * { /* Theme option item styles */
   padding: 1.5px;
   margin: 3px;
   border-bottom: 1px solid var(--foreground);
   background-color: var(--background-lighter);
 }
 
-.themeoptions *:hover {
+.themeoptions *:hover { /* Theme option item hover styles */
   color: var(--lighter);
 }
 
-a:hover {
+a:hover { /* Global link hover styles */
   color: var(--url-highlight);
 }
 
-.themeoptions *:last-child {
+.themeoptions *:last-child { /* Last theme option item styles */
   border-bottom: none;
 }
 
-.themeoptions {
+.themeoptions { /* Theme options container styles */
   width: 95.25px;
   cursor: pointer;
   padding: 0.35rem;
@@ -156,7 +156,7 @@ a:hover {
   border-radius: 10px;
 }
 
-footer {
+footer { /* Footer styles */
   color: var(--lighter);
   padding: 12.5px;
   margin-top: 22.5px;
@@ -166,17 +166,17 @@ footer {
   font-size: 11.5px;
 }
 
-footer a {
+footer a { /* Footer link styles */
   display: contents;
   color: var(--url);
   transition: 0.275s;
 }
 
-footer a:hover {
+footer a:hover { /* Footer link hover styles */
   color: var(--url-highlight);
 }
 
-.status {
+.status { /* Status container styles */
   font-size: 13px;
   padding: 3.5px;
   align-items: center;
@@ -184,25 +184,25 @@ footer a:hover {
   display: flex;
 }
 
-.customStatus {
+.customStatus { /* Custom status styles */
   display: flex;
   position: relative;
 }
 
-.customStatus img {
+.customStatus img { /* Custom status image styles */
   width: 13px;
   height: 13px;
   margin-right: 3.5px;
 }
 
-span.social {
+span.social {  /* Social icon container styles */
   padding: 8px;
   margin: 1.75px;
   margin-top: auto;
   display: inline-flex;
 }
 
-span.social i {
+span.social i { /* Social icon styles */
   font-size: 23.5px;
   color: var(--brand-color);
   position: relative;
@@ -210,7 +210,7 @@ span.social i {
   transition: 0.275s;
 }
 
-.social i:hover {
+.social i:hover { /* Social icon hover styles */
   color: var(--brand-color-highlight);
 }
 
@@ -236,27 +236,27 @@ span.social i {
   }
 }
 
-.anim-appearing {
+.anim-appearing { /* Appearing animation class */
   animation: appearing 0.6s ease-in;
 }
 
-.avatar {
+.avatar { /* Avatar animation styles */
   border: solid transparent;
   border-radius: 50%;
   transition: 0.275s;
   animation: load-image 1.275s linear;
 }
 
-.avatar:hover {
+.avatar:hover { /* Avatar hover styles */
   transform: rotate(360deg) scale(1.1375);
 }
 
-section {
+section { /* Section styles */
   margin: 0 auto;
   padding: 5px 32px;
 }
 
-.divider {
+.divider { /* Divider styles */
   display: block;
   margin: 0 auto;
   width: 12.5%;
@@ -264,17 +264,17 @@ section {
   background-color: var(--util);
 }
 
-section h2.section-title {
+section h2.section-title { /* Section title styles */
   margin-top: 8px;
   padding-bottom: 4px;
 }
 
-.brand {
+.brand { /* Brand container styles */
   justify-content: center;
   align-items: center;
 }
 
-.toolbar {
+.toolbar { /* Toolbar styles */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -282,7 +282,7 @@ section h2.section-title {
   margin-bottom: 0.55rem;
 }
 
-.toolbar-link {
+.toolbar-link { /* Toolbar link styles */
   padding: 0.5rem;
   margin: 0.25rem;
   font-size: 17.5px;
@@ -293,7 +293,7 @@ section h2.section-title {
   transition: 0.275s;
 }
 
-@media (max-width: 625px) {
+@media (max-width: 625px) { /* Responsive styles for small screens */
   .brand {
     display: flex;
     justify-content: center;
@@ -324,13 +324,13 @@ section h2.section-title {
   }
 }
 
-.reference-sheet {
+.reference-sheet { /* Reference sheet image styles */
   border-radius: 15px;
   box-shadow: var(--shadow-md);
   transition: 0.275s;
 }
 
-.color {
+.color { /* Color swatch styles */
   cursor: pointer;
   position: relative;
     text-align: center;
@@ -348,42 +348,32 @@ section h2.section-title {
   border: var(--foreground) 3px solid;
 }
 
-.color:hover {
+.color:hover { /* Color swatch hover styles */
   opacity: 0.85;
   color: var(--lighter);
 }
 
-.fursona-param {
-  background-color: var(--brand-color);
-  height: 50px;
-  line-height: 50px;
-  padding: 7px;
-  margin-top: 10px;
-  width: 100px;
-  border-radius: 12px;
-  text-align: center;
-  font-weight: 500;
-}
-
-
-.param{
+.param{ /* Parameter box styles */
   display: flex;
   position: relative;
   justify-content: center;
   text-align: center;
   align-items: center;
   align-content: center;
-  align-self: center;
   color: #fafafa;
   text-shadow: -0.75px -0.75px 0 black, 1px -0.75px 0 black, -0.75px 1px 0 black,
     1px 1px 0 black;
-  font-size: 1rem;
+  font-size: 0.95rem;
   border: var(--foreground) 3px solid;
   background: var(--background-lighter);
 }
 
 
-.emoji{
-  /* align-self: center; */
+.emoji{ /* Emoji styles */
   display: contents;
+}
+
+.emoji::after { /* Emoji after pseudo-element styles */
+  content: ' ';
+  margin-left: 6.5px;
 }
